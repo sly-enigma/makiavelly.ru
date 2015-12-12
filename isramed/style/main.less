@@ -180,7 +180,7 @@
 
 .b-search {
   background: url("../images/search-bg.jpg") no-repeat 0 0;
-  background-size: cover;
+  background-size: 100% 330px;
   margin: 30px 0 0 0;
 
   .main-menu {
@@ -225,6 +225,92 @@
         display: none;
       }
     }
+  }
+
+
+}
+
+.b-personal-search {
+  .rounded(6px);
+  background: #fff;
+  margin: 15px 0 0 0;
+  padding: 28px 0 0 43px;
+  .box-sizing();
+
+  &.wrapper-center {
+    margin: 17px auto 0;
+  }
+
+  .title {
+    .font(20px, 'PT Sans', 600, #396aa8);
+    text-transform: uppercase;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+    .inline-block;
+  }
+
+  .search-input {
+    .inline-block;
+    border: 1px solid #bababa;
+    .rounded(25px);
+    .font(16px, 'PT Sans', 400, #8a8a8a);
+    margin: 0 0 0 59px;
+    padding: 0 0 0 23px;
+    width: 800px;
+    .box-sizing();
+    height: 44px;
+    line-height: 43px;
+  }
+
+  .send {
+    background: #396aa8;
+    line-height: 20px;
+    .font(16px, 'PT Sans', 600, #fff);
+    text-transform: uppercase;
+    border: none;
+    .rounded(15px);
+    position: relative;
+    right: 43px;
+    top: -41px;
+    float: right;
+    padding: 7px 35px;
+  }
+}
+
+.b-filters {
+  border-top: 1px solid #d1d1d1;
+  margin: 25px 0 0 0;
+  padding: 22px 0 0 0px;
+
+  .section-item {
+    .inline-block;
+    width: 49%;
+  }
+
+  .column {
+    .inline-block;
+    margin: 18px 109px 0 0;
+
+    label {
+      display: block;
+      .font(15px, 'PT Sans', 400, #4a4a4a);
+      line-height: 24px;
+    }
+
+    &.last {
+      margin-right: 0;
+    }
+  }
+
+  .section-item-label-radio {
+    .font(14px, 'PT Sans', 600, #4a4a4a);
+    text-transform: uppercase;
+    display: block;
+  }
+
+  .section-item-categories {
+    display: block;
+    margin: 38px 0 0 0;
   }
 }
 
