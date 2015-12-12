@@ -160,9 +160,13 @@
   zoom: 1;
   *display: inline;
   background-repeat: no-repeat;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
 }
 .b-form-login .links .login-social a:hover {
-  background: #396aa8;
+  background-color: #396aa8;
 }
 .b-form-login .links .login-social .in {
   margin: 0 0 0 5px;
@@ -198,6 +202,72 @@
   vertical-align: middle;
   margin: 0 4px 0 0;
 }
+/*
+  start search
+*/
+.b-search {
+  background: url("../images/search-bg.jpg") no-repeat 0 0;
+  background-size: cover;
+  margin: 30px 0 0 0;
+}
+.b-search .main-menu {
+  padding: 14px 0 0 0;
+}
+.b-search .main-menu-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 0 18px 0 9px;
+}
+.b-search .main-menu-item a {
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #fff;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  text-transform: uppercase;
+  line-height: 32px;
+  height: 35px;
+  letter-spacing: 0.6px;
+  position: relative;
+  padding: 0 20px 0 20px;
+  margin: 0 0px 0 0px;
+}
+.b-search .main-menu-item a:after {
+  content: '';
+  background: #fff;
+  width: 4px;
+  height: 4px;
+  position: absolute;
+  top: 15px;
+  right: -21px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+}
+.b-search .main-menu-item.active {
+  background: #6bb0bb;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+.b-search .main-menu-item.last:after {
+  display: none;
+}
+/*
+  end search
+*/
 .wrapper-center {
   width: 1240px;
   margin: 0 auto;
