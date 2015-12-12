@@ -331,7 +331,7 @@
   -moz-border-radius: 15px;
   border-radius: 15px;
   position: relative;
-  right: 43px;
+  right: 46px;
   top: -41px;
   float: right;
   padding: 7px 35px;
@@ -379,6 +379,33 @@
 .b-filters .section-item-categories {
   display: block;
   margin: 38px 0 0 0;
+}
+.b-main-page-slider {
+  margin: 106px 0 0 0;
+}
+.main-page-slider {
+  margin: 0 45px;
+}
+.main-page-slider .owl-item img {
+  width: auto;
+}
+.main-page-slider .owl-controls .owl-nav {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+}
+.main-page-slider .owl-controls .owl-nav div {
+  height: 31px;
+  width: 31px;
+  position: absolute;
+}
+.main-page-slider .owl-controls .owl-nav .owl-prev {
+  background: url("../images/sprite.png") no-repeat 0 0;
+  left: -45px;
+}
+.main-page-slider .owl-controls .owl-nav .owl-next {
+  background: url("../images/sprite.png") no-repeat 0 -31px;
+  right: -42px;
 }
 /*
   end search
