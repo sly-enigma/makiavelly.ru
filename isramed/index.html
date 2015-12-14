@@ -2,12 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Регистрация</title>
+    <title>Main</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
     <link rel="stylesheet" href="style/owl.carousel.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
+    <script src="js/ion.checkRadio.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body class="p-main">
@@ -27,7 +28,7 @@
         </menu>
 
         <div class="b-logo">
-            <img src="images/logo.png" alt="" title="">
+            <a href=""><img src="images/logo.png" alt="" title=""></a>
 
             <div class="tagline">B2B Israel Medical<br>e-MarketPlace</div>
         </div>
@@ -38,7 +39,10 @@
             <input type="submit" value="go!" class="form-send">
 
             <div class="links">
-                <a href="" class="link-item">Remember me</a>
+                <div class="link-item radio">
+                    <input id="remember" type="radio" name="radio" hidden />
+                    <label for="remember">Remember me</label>
+                </div>
                 <a href="" class="link-item">Create account</a>
                 <a href="" class="link-item">Help</a>
                 <div class="login-social">Login with:
@@ -71,108 +75,123 @@
             <button class="send">search</button>
 
             <div class="b-filters">
-                <div class="section-item">
-                    <label for="" class="section-item-label-radio">
-                        <input type="radio">Product & Service Search
-                    </label>
-
-                    <div class="column">
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
+                <div class="section-item first">
+                    <div class="section-item-label-radio">
+                        <input id="Product" type="radio" name="radio" hidden />
+                        <label for="Product">Product & Service Search</label>
                     </div>
 
                     <div class="column">
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
+                        <div>
+                            <input id="checkbox1" type="checkbox" name="second" hidden />
+                            <label for="checkbox1">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox2" type="checkbox" name="second" hidden />
+                            <label for="checkbox2">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox3" type="checkbox" name="second" hidden />
+                            <label for="checkbox3">by Catalogue No.</label>
+                        </div>
+                        <div>
+                            <input id="checkbox4" type="checkbox" name="second" hidden />
+                            <label for="checkbox4">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox5" type="checkbox" name="second" hidden />
+                            <label for="checkbox5">in Accessory</label>
+                        </div>
+                    </div>
+
+                    <div class="column">
+                        <div>
+                            <input id="checkbox6" type="checkbox" name="second" hidden />
+                            <label for="checkbox6">by Used Equipment</label>
+                        </div>
+                        <div>
+                            <input id="checkbox7" type="checkbox" name="second" hidden />
+                            <label for="checkbox7">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox8" type="checkbox" name="second" hidden />
+                            <label for="checkbox8">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox9" type="checkbox" name="second" hidden />
+                            <label for="checkbox9">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox10" type="checkbox" name="second" hidden />
+                            <label for="checkbox10">in Accessory</label>
+                        </div>
                     </div>
                     <div class="column last">
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
+                        <div>
+                            <input id="checkbox11" type="checkbox" name="second" hidden />
+                            <label for="checkbox11">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox12" type="checkbox" name="second" hidden />
+                            <label for="checkbox12">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox13" type="checkbox" name="second" hidden />
+                            <label for="checkbox13">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox14" type="checkbox" name="second" hidden />
+                            <label for="checkbox14">in Accessory</label>
+                        </div>
                     </div>
                 </div>
-                <div class="section-item">
-                    <label for="" class="section-item-label-radio">
-                        <input type="radio">Member Search
-                    </label>
+                <div class="section-item second">
+                    <div class="section-item-label-radio">
+                        <input id="member" type="radio" name="radio" hidden />
+                        <label for="member">Member Search</label>
+                    </div>
                     <div class="column">
-                        <label for="">
-                            <input type="checkbox">
-                            by Country
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
-                        <label for="">
-                            <input type="checkbox">
-                            in Accessory
-                        </label>
+                        <div>
+                            <input id="checkbox15" type="checkbox" name="second" hidden />
+                            <label for="checkbox15">by Used Equipment</label>
+                        </div>
+                        <div>
+                            <input id="checkbox16" type="checkbox" name="second" hidden />
+                            <label for="checkbox16">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox17" type="checkbox" name="second" hidden />
+                            <label for="checkbox17">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox18" type="checkbox" name="second" hidden />
+                            <label for="checkbox18">in Accessory</label>
+                        </div>
+                        <div>
+                            <input id="checkbox19" type="checkbox" name="second" hidden />
+                            <label for="checkbox19">in Accessory</label>
+                        </div>
                     </div>
 
-                    <input type="text">
+                    <label for="" class="b-search-in">
+                        <span>in</span>
+                        <input type="text" class="search-in" value="all members">
+                    </label>
                 </div>
                 <div class="section-item-categories">
-                    <label for="" class="section-item-label-radio">
-                        <input type="radio">Member Search
-                    </label>
+                    <div class="section-item-label-radio first">
+                        <input id="Categories" type="radio" name="radio" hidden />
+                        <label for="Categories">Medical Categories Search</label>
+
+                        <label for="" class="b-search-in">
+                            <input type="text" class="search-in" value="">
+                        </label>
+                    </div>
+                    <div class="section-item-label-radio">
+                        <input id="Manufacturers" type="radio" name="radio" hidden />
+                        <label for="Manufacturers">Manufacturers Search</label>
+                    </div>
+                    <button class="send">Personal Search Request</button>
                 </div>
             </div>
         </div>
@@ -475,7 +494,35 @@
                 <li class="footer-list-item"><a href="">Edit Activities</a></li>
             </ul>
         </div>
-        <div class="col-3"></div>
+        <div class="col-3">
+            <div class="caption">
+                contacts us
+            </div>
+
+            <div class="number-phone">
+                <span>+38(099) 384-25-65</span>
+                <span>+38(099) 384-25-65</span>
+            </div>
+            <div class="email">
+                info@pelletshome.com.ua
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="caption">
+                subscribe to newsletter
+            </div>
+            <input type="text" value="E-mail">
+            <div class="caption social">
+                We are in the social network
+
+                <div class="social-item">
+                    <a href="" class="fb"></a>
+                    <a href="" class="in"></a>
+                    <a href="" class="tw"></a>
+                </div>
+
+            </div>
+        </div>
     </div>
     <div class="copyright">
         <div class="wrapper-center">
