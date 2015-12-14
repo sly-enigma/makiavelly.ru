@@ -1172,6 +1172,24 @@ footer .email:before {
 }
 .b-breadscrumb ul {
   line-height: 37px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-breadscrumb .found {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+  float: right;
+  margin: 11px 2px 0 0;
 }
 .b-breadscrumb li {
   font-size: 14px;

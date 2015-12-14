@@ -5,10 +5,8 @@
     <title>Main</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
-    <link rel="stylesheet" href="style/owl.carousel.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-    <script src="js/ion.checkRadio.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body class="p-main">
@@ -23,7 +21,7 @@
                 <a href="" class="b-menu-head-item-link">Go to Services</a>
                 <a href="" class="b-menu-head-item-link">Article</a>
                 <a href="" class="b-menu-head-item-link">Quizzes</a>
-                <a href="" class="b-menu-head-item-link last">Contacts us</a>
+                <a href="contact.html" class="b-menu-head-item-link last">Contacts us</a>
             </div>
         </menu>
 
@@ -34,8 +32,8 @@
         </div>
 
         <div class="b-form-login">
-            <input type="text" value="Login" class="form-input">
-            <input type="text" value="Pass" class="form-input">
+            <input type="text" value="Login" class="form-input" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+            <input type="text" value="Pass" class="form-input" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
             <input type="submit" value="go!" class="form-send">
 
             <div class="links">
@@ -60,7 +58,7 @@
                 <li class="main-menu-item"><a href="">Medical Categories</a></li>
                 <li class="main-menu-item active"><a href="">Medical Companies</a></li>
                 <li class="main-menu-item"><a href="">Medical Teams</a></li>
-                <li class="main-menu-item"><a href="">Associations</a></li>
+                <li class="main-menu-item"><a href="asotiations.html">Associations</a></li>
                 <li class="main-menu-item"><a href="">Manufacturers</a></li>
                 <li class="main-menu-item last"><a href="">go to services</a></li>
             </ul>
@@ -511,7 +509,7 @@
             <div class="caption">
                 subscribe to newsletter
             </div>
-            <input type="text" value="E-mail">
+            <input type="text" value="E-mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
             <div class="caption social">
                 We are in the social network
 

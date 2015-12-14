@@ -22,7 +22,7 @@
 			<a href="" class="b-menu-head-item-link">Go to Services</a>
 			<a href="" class="b-menu-head-item-link">Article</a>
 			<a href="" class="b-menu-head-item-link">Quizzes</a>
-			<a href="" class="b-menu-head-item-link last">Contacts us</a>
+			<a href="contact.html" class="b-menu-head-item-link last">Contacts us</a>
 		</div>
 	</menu>
 
@@ -33,8 +33,8 @@
 	</div>
 
 	<div class="b-form-login">
-		<input type="text" value="Login" class="form-input">
-		<input type="text" value="Pass" class="form-input">
+		<input type="text" value="Login" class="form-input" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+		<input type="text" value="Pass" class="form-input" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
 		<input type="submit" value="go!" class="form-send">
 
 		<div class="links">
@@ -56,7 +56,7 @@
 				<li class="main-menu-item"><a href="">Medical Categories</a></li>
 				<li class="main-menu-item active"><a href="">Medical Companies</a></li>
 				<li class="main-menu-item"><a href="">Medical Teams</a></li>
-				<li class="main-menu-item"><a href="">Associations</a></li>
+				<li class="main-menu-item"><a href="asotiations.html">Associations</a></li>
 				<li class="main-menu-item"><a href="">Manufacturers</a></li>
 				<li class="main-menu-item last"><a href="">go to services</a></li>
 			</ul>
@@ -68,6 +68,10 @@
 			<li><a href="/">Home Search</a> > </li>
 			<li class="current"><a href="">Asotiations</a></li>
 		</ul>
+
+		<div class="found">
+			Found:  <span>64</span> item(s)
+		</div>
 	</div>
 	<div class="b-asotiations-list wrapper-center">
 		<div class="b-asotiations-items">
@@ -248,7 +252,7 @@
 		</div>
 		<div class="col-3">
 			<div class="caption">
-				contucts us
+				contacts us
 			</div>
 
 			<div class="number-phone">
@@ -257,6 +261,22 @@
 			</div>
 			<div class="email">
 				info@pelletshome.com.ua
+			</div>
+		</div>
+		<div class="col-4">
+			<div class="caption">
+				subscribe to newsletter
+			</div>
+			<input type="text" value="E-mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+			<div class="caption social">
+				We are in the social network
+
+				<div class="social-item">
+					<a href="" class="fb"></a>
+					<a href="" class="in"></a>
+					<a href="" class="tw"></a>
+				</div>
+
 			</div>
 		</div>
 	</div>
