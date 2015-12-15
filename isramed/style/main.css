@@ -3,6 +3,10 @@
 @import "jquery-ui.structure.min.css";
 @import "jquery-ui.min.css";
 @import "jquery-ui.structure.min.css";
+.wrapper-center {
+  width: 1240px;
+  margin: 0 auto;
+}
 * {
   margin: 0;
   padding: 0;
@@ -1569,8 +1573,4 @@ input[type="radio"]:checked:disabled + label::before {
   margin-top: 7px;
   margin-bottom: 8px;
   margin-left: 4px;
-}
-.wrapper-center {
-  width: 1240px;
-  margin: 0 auto;
 }
