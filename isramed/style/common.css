@@ -1570,6 +1570,122 @@ input[type="radio"]:checked:disabled + label::before {
   margin-bottom: 8px;
   margin-left: 4px;
 }
+.b-pagination-bottom .found {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+  float: right;
+  margin: 11px 2px 0 0;
+}
+.p-manufactures .b-pagination {
+  margin: 6px 0px 0 59px;
+}
+.p-manufactures .found {
+  margin: 9px 0px 0 0;
+}
+.p-manufactures .b-pagination-bottom .b-pagination {
+  margin: 11px 0px 11px 62px;
+}
+.p-manufactures .b-pagination-bottom .found {
+  margin: 14px 0px 0px 0;
+  float: left;
+}
+.b-manufactures {
+  padding: 27px 0 0 0;
+}
+.b-choose-letter .title {
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-choose-letter .letters {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  float: right;
+  margin: -5px -2px 0 0;
+}
+.b-choose-letter .letter-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+  width: 26px;
+  padding: 5px 0;
+  margin: 0 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.b-choose-letter .letter-item:hover {
+  color: #fff;
+  background: #2a67a5;
+}
+.b-choose-letter .letter-item.current {
+  color: #fff;
+  background: #2a67a5;
+}
+.t-manufacture {
+  border: 1px solid #c6c6c6;
+  width: 100%;
+  margin: 40px 0 54px 0;
+}
+.t-manufacture tr:nth-child(even) {
+  background: #fff;
+}
+.t-manufacture tr:nth-child(odd) {
+  background: #fafafa;
+}
+.t-manufacture :nth-child(1) {
+  border-right: 1px solid #dcddde;
+}
+.t-manufacture td {
+  vertical-align: middle;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #6491c6;
+  height: 37px;
+}
+.t-manufacture .caption :nth-child(1) {
+  width: 50%;
+}
+.t-manufacture .caption td {
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #fff;
+  background: #6491c6;
+  text-align: center;
+  height: 36px;
+  padding: 0 25px;
+}
 .wrapper-center {
   width: 1240px;
   margin: 0 auto;
