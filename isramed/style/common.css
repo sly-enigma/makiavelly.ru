@@ -1,4 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext);
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.outer-wrapper {
+  position: relative;
+  min-height: 100%;
+}
+.content {
+  padding-bottom: 290px;
+}
 input:focus,
 select:focus,
 textarea:focus,
@@ -964,6 +979,11 @@ footer {
   background: #3b6ba9;
   border-top: 1px solid #7ba266;
   margin: 17px 0 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 290px;
 }
 footer .wrapper-center {
   width: 1250px;
@@ -1248,12 +1268,113 @@ footer .email:before {
   color: #396aa8;
   line-height: 24px;
 }
-.b-contacts .col-1 {
+.b-contacts .title {
+  font-size: 30px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #396aa8;
+  margin: 31px 0 0 0;
+}
+.b-contacts .contacts-list {
+  line-height: 24px;
+  margin: 39px 14% 0 0;
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
   zoom: 1;
   *display: inline;
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+}
+.b-contacts .caption {
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #424242;
+  margin: 0 0 23px 0;
+}
+.b-contacts label {
+  display: block;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #424242;
+  margin: 0 0 17px 0;
+  line-height: 14px;
+}
+.b-contacts label input {
+  float: right;
+  width: 259px;
+  height: 31px;
+  border: 1px solid #bababa;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #929292;
+  line-height: 27px;
+  margin: 0 0 0 56px;
+  padding: 0 0 0 13px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.b-contacts label span {
+  margin: 12px 0 0px 0;
+  display: inline-block;
+}
+.b-contacts .form {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 0 62px 0 0;
+}
+.b-contacts .textfield {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-contacts .send {
+  background: #396aa8;
+  line-height: 20px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  position: relative;
+  padding: 7px 67px;
+  display: block;
+  margin: 21px 0 0 135px;
+}
+.b-contacts textarea {
+  border: 1px solid #bababa;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  width: 298px;
+  height: 113px;
+}
+.contact-form {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 41px 0 100px 0;
 }
 input[type="checkbox"],
 input[type="radio"] {

@@ -4,6 +4,25 @@
 // start header menu
 //
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.outer-wrapper {
+  position: relative;
+  min-height: 100%;
+}
+
+.content {
+  padding-bottom: 290px;
+}
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -799,6 +818,11 @@ footer {
   background: #3b6ba9;
   border-top: 1px solid #7ba266;
   margin: 17px 0 0 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 290px;
 
   .wrapper-center {
     width: 1250px;
@@ -1045,9 +1069,81 @@ footer {
 }
 
 .b-contacts {
-  .col-1 {
+  .title {
+    .font(30px, 'PT Sans', 400, #396aa8);
+    margin: 31px 0 0 0;
+  }
+
+  .contacts-list {
+    line-height: 24px;
+    margin: 39px 14% 0 0;
+    .inline-block;
+    .font(15px, 'PT Sans', 400, #000);
+  }
+
+  .caption {
+    .font(14px, 'PT Sans', 400, #424242);
+    margin: 0 0 23px 0;
+  }
+
+  label {
+    display: block;
+    .font(14px, 'PT Sans', 400, #424242);
+    margin: 0 0 17px 0;
+    line-height: 14px;
+
+    input {
+      float: right;
+      width: 259px;
+      height: 31px;
+      border: 1px solid #bababa;
+      .rounded(15px);
+      .font(14px, 'PT Sans', 400, #929292);
+      line-height: 27px;
+      margin: 0 0 0 56px;
+      padding: 0 0 0 13px;
+      .box-sizing();
+    }
+
+    span {
+      margin: 12px 0 0px 0;
+      display: inline-block;
+    }
+  }
+
+  .form {
+    .inline-block;
+    margin: 0 62px 0 0;
+  }
+
+  .textfield {
     .inline-block;
   }
+
+  .send {
+    background: #396aa8;
+    line-height: 20px;
+    .font(16px, 'PT Sans', 600, #fff);
+    text-transform: uppercase;
+    border: none;
+    .rounded(20px);
+    position: relative;
+    padding: 7px 67px;
+    display: block;
+    margin: 21px 0 0 135px;
+  }
+
+  textarea {
+    border: 1px solid #bababa;
+    .rounded(5px);
+    width: 298px;
+    height: 113px;
+  }
+}
+
+.contact-form {
+  .inline-block;
+  margin: 41px 0 100px 0;
 }
 
 input[type="checkbox"],

@@ -5,12 +5,14 @@
     <title>Main</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" href="style/owl.carousel.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
 </head>
 <body class="p-main">
-<header>
+<div class="outer-wrapper">
+    <header>
         <menu class="b-menu-head">
             <div class="wrapper-center">
                 <a href="" class="b-menu-head-item-link first active">Home-search</a>
@@ -51,485 +53,487 @@
             </div>
         </div>
     </header>
-<section class="content">
-    <div class="b-search">
-        <div class="wrapper-center">
-            <ul class="main-menu">
-                <li class="main-menu-item"><a href="">Medical Categories</a></li>
-                <li class="main-menu-item active"><a href="">Medical Companies</a></li>
-                <li class="main-menu-item"><a href="">Medical Teams</a></li>
-                <li class="main-menu-item"><a href="asotiations.html">Associations</a></li>
-                <li class="main-menu-item"><a href="">Manufacturers</a></li>
-                <li class="main-menu-item last"><a href="">go to services</a></li>
-            </ul>
-        </div>
-
-        <div class="b-personal-search wrapper-center">
-            <div class="title">
-                Search for Products <br>
-                Services  / Get Prices / Order
+    <section class="content">
+        <div class="b-search">
+            <div class="wrapper-center">
+                <ul class="main-menu">
+                    <li class="main-menu-item"><a href="">Medical Categories</a></li>
+                    <li class="main-menu-item active"><a href="">Medical Companies</a></li>
+                    <li class="main-menu-item"><a href="">Medical Teams</a></li>
+                    <li class="main-menu-item"><a href="asotiations.html">Associations</a></li>
+                    <li class="main-menu-item"><a href="">Manufacturers</a></li>
+                    <li class="main-menu-item last"><a href="">go to services</a></li>
+                </ul>
             </div>
-            <input type="text" value="what do your search?" class="search-input">
-            <button class="send">search</button>
 
-            <div class="b-filters">
-                <div class="section-item first">
-                    <div class="section-item-label-radio">
-                        <input id="Product" type="radio" name="radio" hidden />
-                        <label for="Product">Product & Service Search</label>
-                    </div>
-
-                    <div class="column">
-                        <div>
-                            <input id="checkbox1" type="checkbox" name="second" hidden />
-                            <label for="checkbox1">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox2" type="checkbox" name="second" hidden />
-                            <label for="checkbox2">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox3" type="checkbox" name="second" hidden />
-                            <label for="checkbox3">by Catalogue No.</label>
-                        </div>
-                        <div>
-                            <input id="checkbox4" type="checkbox" name="second" hidden />
-                            <label for="checkbox4">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox5" type="checkbox" name="second" hidden />
-                            <label for="checkbox5">in Accessory</label>
-                        </div>
-                    </div>
-
-                    <div class="column">
-                        <div>
-                            <input id="checkbox6" type="checkbox" name="second" hidden />
-                            <label for="checkbox6">by Used Equipment</label>
-                        </div>
-                        <div>
-                            <input id="checkbox7" type="checkbox" name="second" hidden />
-                            <label for="checkbox7">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox8" type="checkbox" name="second" hidden />
-                            <label for="checkbox8">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox9" type="checkbox" name="second" hidden />
-                            <label for="checkbox9">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox10" type="checkbox" name="second" hidden />
-                            <label for="checkbox10">in Accessory</label>
-                        </div>
-                    </div>
-                    <div class="column last">
-                        <div>
-                            <input id="checkbox11" type="checkbox" name="second" hidden />
-                            <label for="checkbox11">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox12" type="checkbox" name="second" hidden />
-                            <label for="checkbox12">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox13" type="checkbox" name="second" hidden />
-                            <label for="checkbox13">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox14" type="checkbox" name="second" hidden />
-                            <label for="checkbox14">in Accessory</label>
-                        </div>
-                    </div>
+            <div class="b-personal-search wrapper-center">
+                <div class="title">
+                    Search for Products <br>
+                    Services  / Get Prices / Order
                 </div>
-                <div class="section-item second">
-                    <div class="section-item-label-radio">
-                        <input id="member" type="radio" name="radio" hidden />
-                        <label for="member">Member Search</label>
-                    </div>
-                    <div class="column">
-                        <div>
-                            <input id="checkbox15" type="checkbox" name="second" hidden />
-                            <label for="checkbox15">by Used Equipment</label>
-                        </div>
-                        <div>
-                            <input id="checkbox16" type="checkbox" name="second" hidden />
-                            <label for="checkbox16">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox17" type="checkbox" name="second" hidden />
-                            <label for="checkbox17">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox18" type="checkbox" name="second" hidden />
-                            <label for="checkbox18">in Accessory</label>
-                        </div>
-                        <div>
-                            <input id="checkbox19" type="checkbox" name="second" hidden />
-                            <label for="checkbox19">in Accessory</label>
-                        </div>
-                    </div>
+                <input type="text" value="what do your search?" class="search-input">
+                <button class="send">search</button>
 
-                    <label for="" class="b-search-in">
-                        <span>in</span>
-                        <input type="text" class="search-in" value="all members">
-                    </label>
-                </div>
-                <div class="section-item-categories">
-                    <div class="section-item-label-radio first">
-                        <input id="Categories" type="radio" name="radio" hidden />
-                        <label for="Categories">Medical Categories Search</label>
+                <div class="b-filters">
+                    <div class="section-item first">
+                        <div class="section-item-label-radio">
+                            <input id="Product" type="radio" name="radio" hidden />
+                            <label for="Product">Product & Service Search</label>
+                        </div>
+
+                        <div class="column">
+                            <div>
+                                <input id="checkbox1" type="checkbox" name="second" hidden />
+                                <label for="checkbox1">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox2" type="checkbox" name="second" hidden />
+                                <label for="checkbox2">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox3" type="checkbox" name="second" hidden />
+                                <label for="checkbox3">by Catalogue No.</label>
+                            </div>
+                            <div>
+                                <input id="checkbox4" type="checkbox" name="second" hidden />
+                                <label for="checkbox4">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox5" type="checkbox" name="second" hidden />
+                                <label for="checkbox5">in Accessory</label>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div>
+                                <input id="checkbox6" type="checkbox" name="second" hidden />
+                                <label for="checkbox6">by Used Equipment</label>
+                            </div>
+                            <div>
+                                <input id="checkbox7" type="checkbox" name="second" hidden />
+                                <label for="checkbox7">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox8" type="checkbox" name="second" hidden />
+                                <label for="checkbox8">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox9" type="checkbox" name="second" hidden />
+                                <label for="checkbox9">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox10" type="checkbox" name="second" hidden />
+                                <label for="checkbox10">in Accessory</label>
+                            </div>
+                        </div>
+                        <div class="column last">
+                            <div>
+                                <input id="checkbox11" type="checkbox" name="second" hidden />
+                                <label for="checkbox11">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox12" type="checkbox" name="second" hidden />
+                                <label for="checkbox12">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox13" type="checkbox" name="second" hidden />
+                                <label for="checkbox13">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox14" type="checkbox" name="second" hidden />
+                                <label for="checkbox14">in Accessory</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-item second">
+                        <div class="section-item-label-radio">
+                            <input id="member" type="radio" name="radio" hidden />
+                            <label for="member">Member Search</label>
+                        </div>
+                        <div class="column">
+                            <div>
+                                <input id="checkbox15" type="checkbox" name="second" hidden />
+                                <label for="checkbox15">by Used Equipment</label>
+                            </div>
+                            <div>
+                                <input id="checkbox16" type="checkbox" name="second" hidden />
+                                <label for="checkbox16">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox17" type="checkbox" name="second" hidden />
+                                <label for="checkbox17">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox18" type="checkbox" name="second" hidden />
+                                <label for="checkbox18">in Accessory</label>
+                            </div>
+                            <div>
+                                <input id="checkbox19" type="checkbox" name="second" hidden />
+                                <label for="checkbox19">in Accessory</label>
+                            </div>
+                        </div>
 
                         <label for="" class="b-search-in">
-                            <input type="text" class="search-in" value="">
+                            <span>in</span>
+                            <input type="text" class="search-in" value="all members">
                         </label>
                     </div>
-                    <div class="section-item-label-radio">
-                        <input id="Manufacturers" type="radio" name="radio" hidden />
-                        <label for="Manufacturers">Manufacturers Search</label>
+                    <div class="section-item-categories">
+                        <div class="section-item-label-radio first">
+                            <input id="Categories" type="radio" name="radio" hidden />
+                            <label for="Categories">Medical Categories Search</label>
+
+                            <label for="" class="b-search-in">
+                                <input type="text" class="search-in" value="">
+                            </label>
+                        </div>
+                        <div class="section-item-label-radio">
+                            <input id="Manufacturers" type="radio" name="radio" hidden />
+                            <label for="Manufacturers">Manufacturers Search</label>
+                        </div>
+                        <button class="send">Personal Search Request</button>
                     </div>
-                    <button class="send">Personal Search Request</button>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="b-main-page-slider">
+            <div class="wrapper-center">
+                <div class="owl-carousel main-page-slider">
+                    <div class="item" style="width:166px">
+                        <img src="images/slider1.png" alt="">
+                    </div>
+                    <div class="item" style="width:171px">
+                        <img src="images/slider2.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider3.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider4.png" alt="">
+                    </div>
+                    <div class="item" style="width:156px">
+                        <img src="images/slider5.png" alt="">
+                    </div>
+                    <div class="item" style="width:173px">
+                        <img src="images/slider6.png" alt="">
+                    </div>
+                    <div class="item" style="width:166px">
+                        <img src="images/slider1.png" alt="">
+                    </div>
+                    <div class="item" style="width:171px">
+                        <img src="images/slider2.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider3.png" alt="">
+                    </div>
                 </div>
             </div>
         </div>
+        <div class="b-lottery">
+            <div class="wrapper-center">
+                <div class="b-title">Lottery</div>
+                <div class="lottery-item-list">
+                    <div class="lottery-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">lottery name</div>
+                        <a href="" class="manufacturer">Criticare Systems inc</a>
+                        <div class="honors">
+                            <div class="prise"><i></i>25 prise</div>
+                            <div class="winners"><i></i>21 winners</div>
+                        </div>
+                        <div class="description">
+                            proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                        </div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
+                    <div class="lottery-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">lottery name</div>
+                        <a href="" class="manufacturer">Criticare Systems inc</a>
+                        <div class="honors">
+                            <div class="prise"><i></i>25 prise</div>
+                            <div class="winners"><i></i>21 winners</div>
+                        </div>
+                        <div class="description">
+                            proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                        </div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
+                    <div class="lottery-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">lottery name</div>
+                        <a href="" class="manufacturer">Criticare Systems inc</a>
+                        <div class="honors">
+                            <div class="prise"><i></i>25 prise</div>
+                            <div class="winners"><i></i>21 winners</div>
+                        </div>
+                        <div class="description">
+                            proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                        </div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
+                    <div class="lottery-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">lottery name</div>
+                        <a href="" class="manufacturer">Criticare Systems inc</a>
+                        <div class="honors">
+                            <div class="prise"><i></i>25 prise</div>
+                            <div class="winners"><i></i>21 winners</div>
+                        </div>
+                        <div class="description">
+                            proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                        </div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
+                    <div class="lottery-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">lottery name</div>
+                        <a href="" class="manufacturer">Criticare Systems inc</a>
+                        <div class="honors">
+                            <div class="prise"><i></i>25 prise</div>
+                            <div class="winners"><i></i>21 winners</div>
+                        </div>
+                        <div class="description">
+                            proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                        </div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
 
-
-    </div>
-    <div class="b-main-page-slider">
-        <div class="wrapper-center">
-            <div class="owl-carousel main-page-slider">
-                <div class="item" style="width:166px">
-                    <img src="images/slider1.png" alt="">
-                </div>
-                <div class="item" style="width:171px">
-                    <img src="images/slider2.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider3.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider4.png" alt="">
-                </div>
-                <div class="item" style="width:156px">
-                    <img src="images/slider5.png" alt="">
-                </div>
-                <div class="item" style="width:173px">
-                    <img src="images/slider6.png" alt="">
-                </div>
-                <div class="item" style="width:166px">
-                    <img src="images/slider1.png" alt="">
-                </div>
-                <div class="item" style="width:171px">
-                    <img src="images/slider2.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider3.png" alt="">
+                    <div class="button-see-more">
+                        <a href="">see more...</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="b-lottery">
-        <div class="wrapper-center">
-            <div class="b-title">Lottery</div>
-            <div class="lottery-item-list">
-                <div class="lottery-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+        <div class="b-information wrapper-center">
+            <div class="main-text">
+                You are Welcome to IsraMed.Info Server - <br>
+                the virtual working prototype <br>
+                of Israel Medical Equipment Market
+            </div>
+            <div class="description">
+                The virtual working prototype of Israel Medical Equipment Market that brings together on a common platform
+                <br>suppliers, buyers, exporters, importers, hospitals, clinics ,manufacturers, biomedical companies,  venture capital funds, brassociations, academic and research institutions, as well as doctors, engineers, researchers, biotechnologists etc.
+                <span>Israel Start-Up Bio-Medical Projects are Waiting for Investments</span>
+            </div>
+        </div>
+        <div class="b-products">
+            <div class="wrapper-center">
+                <div class="b-title">Products</div>
+                <div class="product-item-list">
+                    <div class="product-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">8100 Multi Parameter monitor</div>
+                        <div class="model">(Model: 8100)</div>
+                        <div class="manufacturer">Manufacturer: Criticare Systems inc
+                            Compact Monitor, Active Color Screen 10.4</div>
+                        <a href="" class="see-more">see more</a>
                     </div>
-                    <div class="name">lottery name</div>
-                    <a href="" class="manufacturer">Criticare Systems inc</a>
-                    <div class="honors">
-                        <div class="prise"><i></i>25 prise</div>
-                        <div class="winners"><i></i>21 winners</div>
+                    <div class="product-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">8100 Multi Parameter monitor</div>
+                        <div class="model">(Model: 8100)</div>
+                        <div class="manufacturer">Manufacturer: Criticare Systems inc
+                            Compact Monitor, Active Color Screen 10.4</div>
+                        <a href="" class="see-more">see more</a>
                     </div>
-                    <div class="description">
-                        proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
+                    <div class="product-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">8100 Multi Parameter monitor</div>
+                        <div class="model">(Model: 8100)</div>
+                        <div class="manufacturer">Manufacturer: Criticare Systems inc
+                            Compact Monitor, Active Color Screen 10.4</div>
+                        <a href="" class="see-more">see more</a>
                     </div>
-                    <a href="" class="see-more">see more</a>
+                    <div class="product-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">8100 Multi Parameter monitor</div>
+                        <div class="model">(Model: 8100)</div>
+                        <div class="manufacturer">Manufacturer: Criticare Systems inc
+                            Compact Monitor, Active Color Screen 10.4</div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
+                    <div class="product-item">
+                        <div class="image">
+                            <img src="images/lottery-img.jpg" alt="">
+                        </div>
+                        <div class="name">8100 Multi Parameter monitor</div>
+                        <div class="model">(Model: 8100)</div>
+                        <div class="manufacturer">Manufacturer: Criticare Systems inc
+                            Compact Monitor, Active Color Screen 10.4</div>
+                        <a href="" class="see-more">see more</a>
+                    </div>
                 </div>
-                <div class="lottery-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
-                    </div>
-                    <div class="name">lottery name</div>
-                    <a href="" class="manufacturer">Criticare Systems inc</a>
-                    <div class="honors">
-                        <div class="prise"><i></i>25 prise</div>
-                        <div class="winners"><i></i>21 winners</div>
-                    </div>
-                    <div class="description">
-                        proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
-                    </div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="lottery-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
-                    </div>
-                    <div class="name">lottery name</div>
-                    <a href="" class="manufacturer">Criticare Systems inc</a>
-                    <div class="honors">
-                        <div class="prise"><i></i>25 prise</div>
-                        <div class="winners"><i></i>21 winners</div>
-                    </div>
-                    <div class="description">
-                        proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
-                    </div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="lottery-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
-                    </div>
-                    <div class="name">lottery name</div>
-                    <a href="" class="manufacturer">Criticare Systems inc</a>
-                    <div class="honors">
-                        <div class="prise"><i></i>25 prise</div>
-                        <div class="winners"><i></i>21 winners</div>
-                    </div>
-                    <div class="description">
-                        proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
-                    </div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="lottery-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
-                    </div>
-                    <div class="name">lottery name</div>
-                    <a href="" class="manufacturer">Criticare Systems inc</a>
-                    <div class="honors">
-                        <div class="prise"><i></i>25 prise</div>
-                        <div class="winners"><i></i>21 winners</div>
-                    </div>
-                    <div class="description">
-                        proprietary CSI vital signs and 5-agent gas analysis technology proprietary CSI vital signs and 5-agent gas analysis technology...
-                    </div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-
                 <div class="button-see-more">
                     <a href="">see more...</a>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="b-information wrapper-center">
-        <div class="main-text">
-            You are Welcome to IsraMed.Info Server - <br>
-            the virtual working prototype <br>
-            of Israel Medical Equipment Market
-        </div>
-        <div class="description">
-            The virtual working prototype of Israel Medical Equipment Market that brings together on a common platform
-            <br>suppliers, buyers, exporters, importers, hospitals, clinics ,manufacturers, biomedical companies,  venture capital funds, brassociations, academic and research institutions, as well as doctors, engineers, researchers, biotechnologists etc.
-            <span>Israel Start-Up Bio-Medical Projects are Waiting for Investments</span>
-        </div>
-    </div>
-    <div class="b-products">
-        <div class="wrapper-center">
-            <div class="b-title">Products</div>
-            <div class="product-item-list">
-                <div class="product-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+        <div class="b-all-articles">
+            <div class="wrapper-center">
+                <div class="b-title">More read article</div>
+                <div class="article-item-list">
+                    <div class="article-item">
+                        <div class="image">
+                            <img src="images/article.jpg" alt="">
+                        </div>
+                        <div class="name">Unique Surgical Stapler</div>
                     </div>
-                    <div class="name">8100 Multi Parameter monitor</div>
-                    <div class="model">(Model: 8100)</div>
-                    <div class="manufacturer">Manufacturer: Criticare Systems inc
-                        Compact Monitor, Active Color Screen 10.4</div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="product-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+                    <div class="article-item">
+                        <div class="image">
+                            <img src="images/article.jpg" alt="">
+                        </div>
+                        <div class="name">Unique Surgical Stapler</div>
                     </div>
-                    <div class="name">8100 Multi Parameter monitor</div>
-                    <div class="model">(Model: 8100)</div>
-                    <div class="manufacturer">Manufacturer: Criticare Systems inc
-                        Compact Monitor, Active Color Screen 10.4</div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="product-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+                    <div class="article-item">
+                        <div class="image">
+                            <img src="images/article.jpg" alt="">
+                        </div>
+                        <div class="name">Unique Surgical Stapler</div>
                     </div>
-                    <div class="name">8100 Multi Parameter monitor</div>
-                    <div class="model">(Model: 8100)</div>
-                    <div class="manufacturer">Manufacturer: Criticare Systems inc
-                        Compact Monitor, Active Color Screen 10.4</div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="product-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+                    <div class="article-item">
+                        <div class="image">
+                            <img src="images/article.jpg" alt="">
+                        </div>
+                        <div class="name">Unique Surgical Stapler</div>
                     </div>
-                    <div class="name">8100 Multi Parameter monitor</div>
-                    <div class="model">(Model: 8100)</div>
-                    <div class="manufacturer">Manufacturer: Criticare Systems inc
-                        Compact Monitor, Active Color Screen 10.4</div>
-                    <a href="" class="see-more">see more</a>
-                </div>
-                <div class="product-item">
-                    <div class="image">
-                        <img src="images/lottery-img.jpg" alt="">
+                    <div class="article-item">
+                        <div class="image">
+                            <img src="images/article.jpg" alt="">
+                        </div>
+                        <div class="name">Unique Surgical Stapler</div>
                     </div>
-                    <div class="name">8100 Multi Parameter monitor</div>
-                    <div class="model">(Model: 8100)</div>
-                    <div class="manufacturer">Manufacturer: Criticare Systems inc
-                        Compact Monitor, Active Color Screen 10.4</div>
-                    <a href="" class="see-more">see more</a>
                 </div>
-            </div>
-            <div class="button-see-more">
-                <a href="">see more...</a>
-            </div>
-        </div>
-    </div>
-    <div class="b-all-articles">
-        <div class="wrapper-center">
-            <div class="b-title">More read article</div>
-            <div class="article-item-list">
-                <div class="article-item">
-                    <div class="image">
-                        <img src="images/article.jpg" alt="">
-                    </div>
-                    <div class="name">Unique Surgical Stapler</div>
-                </div>
-                <div class="article-item">
-                    <div class="image">
-                        <img src="images/article.jpg" alt="">
-                    </div>
-                    <div class="name">Unique Surgical Stapler</div>
-                </div>
-                <div class="article-item">
-                    <div class="image">
-                        <img src="images/article.jpg" alt="">
-                    </div>
-                    <div class="name">Unique Surgical Stapler</div>
-                </div>
-                <div class="article-item">
-                    <div class="image">
-                        <img src="images/article.jpg" alt="">
-                    </div>
-                    <div class="name">Unique Surgical Stapler</div>
-                </div>
-                <div class="article-item">
-                    <div class="image">
-                        <img src="images/article.jpg" alt="">
-                    </div>
-                    <div class="name">Unique Surgical Stapler</div>
-                </div>
-            </div>
-            <div class="button-see-more">
-                <a href="">see more...</a>
-            </div>
-        </div>
-    </div>
-    <div class="b-main-page-slider">
-        <div class="wrapper-center">
-            <div class="owl-carousel main-page-slider">
-                <div class="item" style="width:166px">
-                    <img src="images/slider1.png" alt="">
-                </div>
-                <div class="item" style="width:171px">
-                    <img src="images/slider2.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider3.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider4.png" alt="">
-                </div>
-                <div class="item" style="width:156px">
-                    <img src="images/slider5.png" alt="">
-                </div>
-                <div class="item" style="width:173px">
-                    <img src="images/slider6.png" alt="">
-                </div>
-                <div class="item" style="width:166px">
-                    <img src="images/slider1.png" alt="">
-                </div>
-                <div class="item" style="width:171px">
-                    <img src="images/slider2.png" alt="">
-                </div>
-                <div class="item" style="width:174px">
-                    <img src="images/slider3.png" alt="">
+                <div class="button-see-more">
+                    <a href="">see more...</a>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-<footer>
-    <div class="wrapper-center main-content">
-        <div class="logo">
-            <img src="images/logo-footer.png" alt="">
-            <div class="tagline">B2B Israel Medical<br>e-MarketPlace</div>
-        </div>
-        <div class="col-1">
-            <div class="caption">
-                IsraMed.Info Catalog
-            </div>
-            <ul class="footer-list-items">
-                <li class="footer-list-item"><a href="">Medical Categories</a></li>
-                <li class="footer-list-item"><a href="">Medical Companies</a></li>
-                <li class="footer-list-item"><a href="">Medical Teams </a></li>
-                <li class="footer-list-item"><a href="">Associations </a></li>
-                <li class="footer-list-item"><a href="">Manufacturers </a></li>
-                <li class="footer-list-item"><a href="">Go to srevices</a></li>
-            </ul>
-        </div>
-        <div class="col-2">
-            <div class="caption">
-                my profile
-            </div>
-            <ul class="footer-list-items">
-                <li class="footer-list-item"><a href="">DocBox</a></li>
-                <li class="footer-list-item"><a href="">Personal page</a></li>
-                <li class="footer-list-item"><a href="">Edit Profile</a></li>
-                <li class="footer-list-item"><a href="">Edit Activities</a></li>
-                <li class="footer-list-item"><a href="">Edit Activities</a></li>
-            </ul>
-        </div>
-        <div class="col-3">
-            <div class="caption">
-                contacts us
-            </div>
-
-            <div class="number-phone">
-                <span>+38(099) 384-25-65</span>
-                <span>+38(099) 384-25-65</span>
-            </div>
-            <div class="email">
-                info@pelletshome.com.ua
+        <div class="b-main-page-slider">
+            <div class="wrapper-center">
+                <div class="owl-carousel main-page-slider">
+                    <div class="item" style="width:166px">
+                        <img src="images/slider1.png" alt="">
+                    </div>
+                    <div class="item" style="width:171px">
+                        <img src="images/slider2.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider3.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider4.png" alt="">
+                    </div>
+                    <div class="item" style="width:156px">
+                        <img src="images/slider5.png" alt="">
+                    </div>
+                    <div class="item" style="width:173px">
+                        <img src="images/slider6.png" alt="">
+                    </div>
+                    <div class="item" style="width:166px">
+                        <img src="images/slider1.png" alt="">
+                    </div>
+                    <div class="item" style="width:171px">
+                        <img src="images/slider2.png" alt="">
+                    </div>
+                    <div class="item" style="width:174px">
+                        <img src="images/slider3.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-4">
-            <div class="caption">
-                subscribe to newsletter
+    </section>
+    <footer>
+        <div class="wrapper-center main-content">
+            <div class="logo">
+                <img src="images/logo-footer.png" alt="">
+                <div class="tagline">B2B Israel Medical<br>e-MarketPlace</div>
             </div>
-            <input type="text" value="E-mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
-            <div class="caption social">
-                We are in the social network
-
-                <div class="social-item">
-                    <a href="" class="fb"></a>
-                    <a href="" class="in"></a>
-                    <a href="" class="tw"></a>
+            <div class="col-1">
+                <div class="caption">
+                    IsraMed.Info Catalog
+                </div>
+                <ul class="footer-list-items">
+                    <li class="footer-list-item"><a href="">Medical Categories</a></li>
+                    <li class="footer-list-item"><a href="">Medical Companies</a></li>
+                    <li class="footer-list-item"><a href="">Medical Teams </a></li>
+                    <li class="footer-list-item"><a href="">Associations </a></li>
+                    <li class="footer-list-item"><a href="">Manufacturers </a></li>
+                    <li class="footer-list-item"><a href="">Go to srevices</a></li>
+                </ul>
+            </div>
+            <div class="col-2">
+                <div class="caption">
+                    my profile
+                </div>
+                <ul class="footer-list-items">
+                    <li class="footer-list-item"><a href="">DocBox</a></li>
+                    <li class="footer-list-item"><a href="">Personal page</a></li>
+                    <li class="footer-list-item"><a href="">Edit Profile</a></li>
+                    <li class="footer-list-item"><a href="">Edit Activities</a></li>
+                    <li class="footer-list-item"><a href="">Edit Activities</a></li>
+                </ul>
+            </div>
+            <div class="col-3">
+                <div class="caption">
+                    contacts us
                 </div>
 
+                <div class="number-phone">
+                    <span>+38(099) 384-25-65</span>
+                    <span>+38(099) 384-25-65</span>
+                </div>
+                <div class="email">
+                    info@pelletshome.com.ua
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="caption">
+                    subscribe to newsletter
+                </div>
+                <input type="text" value="E-mail" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;">
+                <div class="caption social">
+                    We are in the social network
+
+                    <div class="social-item">
+                        <a href="" class="fb"></a>
+                        <a href="" class="in"></a>
+                        <a href="" class="tw"></a>
+                    </div>
+
+                </div>
             </div>
         </div>
-    </div>
-    <div class="copyright">
-        <div class="wrapper-center">
-            <p>
-                Copyright © 2011 IsraMed.Info
-            </p>
+        <div class="copyright">
+            <div class="wrapper-center">
+                <p>
+                    Copyright © 2011 IsraMed.Info
+                </p>
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
+</div>
+
 
 </body>
 </html>
