@@ -22,5 +22,6 @@ $(document).ready(function(){
         }
     });
 
+    $( "#account-tabs" ).tabs();
 });
 
