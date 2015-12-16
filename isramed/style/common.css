@@ -1857,6 +1857,114 @@ input[type="radio"]:checked:disabled + label::before {
   padding: 7px 35px;
   cursor: pointer;
 }
+.b-medical-companies.wrapper-center {
+  margin-top: 27px;
+  padding: 0 0 69px 0;
+}
+.b-medical-companies .letter {
+  position: relative;
+  padding: 28px 0 0 0;
+}
+.b-medical-companies .title {
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-medical-companies .letters {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  float: right;
+  margin: -5px -2px 0 0;
+}
+.b-medical-companies .letter-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+  width: 26px;
+  padding: 5px 0;
+  margin: 0 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.b-medical-companies .letter-item:hover {
+  color: #fff;
+  background: #2a67a5;
+}
+.b-medical-companies .letter-item.current {
+  color: #fff;
+  background: #2a67a5;
+}
+.b-medical-companies .line-letter {
+  background: #fff;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-medical-companies .line-letter span {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease-out;
+  -moz-transition: all 0.2s ease-out;
+  -o-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+  text-align: center;
+  width: 28px;
+  padding: 6px 0;
+  margin: 0 -1px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  cursor: pointer;
+  background: #2a67a5;
+}
+.b-medical-companies .border {
+  background: #dcddde;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 43px;
+  left: 48px;
+  z-index: -1;
+}
+.b-medical-companies .b-asotiations-list .b-asotiations-items {
+  margin: 23px 0 0 0;
+}
+.b-medical-companies .b-asotiations-list.wrapper-center {
+  margin: 0 auto -18px;
+}
 .wrapper-center {
   width: 1240px;
   margin: 0 auto;

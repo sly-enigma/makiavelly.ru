@@ -1590,3 +1590,88 @@ input[type="radio"]:checked:disabled + label::before {
         cursor: pointer;
     }
 }
+
+.b-medical-companies {
+    &.wrapper-center {
+        margin-top: 27px;
+        padding: 0 0 69px 0;
+    }
+
+    .letter {
+        position: relative;
+        padding: 28px 0 0 0;
+    }
+
+    .title {
+        .font(16px, 'PT Sans', 400, #000);
+        .inline-block;
+    }
+
+    .letters {
+        .inline-block;
+        float: right;
+        margin: -5px -2px 0 0;
+    }
+
+    .letter-item {
+        .inline-block;
+        .font(16px, 'PT Sans', 600, #4a4a4a);
+        text-transform: uppercase;
+        .transition();
+        text-align: center;
+        width: 26px;
+        padding: 5px 0;
+        margin: 0 4px;
+        .rounded(50%);
+        cursor: pointer;
+
+        &:hover {
+            color: #fff;
+            background: #2a67a5;
+        }
+
+        &.current {
+            color: #fff;
+            background: #2a67a5;
+        }
+    }
+
+    .line-letter {
+        background: #fff;
+        .inline-block;
+
+        span {
+            .inline-block;
+            .font(16px, 'PT Sans', 600, #fff);
+            text-transform: uppercase;
+            .transition();
+            text-align: center;
+            width: 28px;
+            padding: 6px 0;
+            margin: 0 -1px;
+            .rounded(50%);
+            cursor: pointer;
+            background: #2a67a5;
+        }
+    }
+
+    .border {
+        background: #dcddde;
+        width: 100%;
+        height: 1px;
+        position: absolute;
+        top: 43px;
+        left: 48px;
+        z-index: -1;
+    }
+
+    .b-asotiations-list {
+        .b-asotiations-items {
+            margin: 23px 0 0 0;
+        }
+
+        &.wrapper-center {
+            margin: 0 auto -18px;
+        }
+    }
+}
