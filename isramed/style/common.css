@@ -1965,6 +1965,21 @@ input[type="radio"]:checked:disabled + label::before {
 .b-medical-companies .b-asotiations-list.wrapper-center {
   margin: 0 auto -18px;
 }
+select {
+  -webkit-appearance: none;
+  background-repeat: no-repeat;
+  /* for FF */
+  -moz-appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  /* for IE */
+  -ms-appearance: none;
+  appearance: none!important;
+  cursor: pointer;
+}
+select::-ms-expand {
+  display: none;
+}
 .wrapper-center {
   width: 1240px;
   margin: 0 auto;

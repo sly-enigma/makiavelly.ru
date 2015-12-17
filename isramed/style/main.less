@@ -1675,3 +1675,20 @@ input[type="radio"]:checked:disabled + label::before {
         }
     }
 }
+
+select {
+    -webkit-appearance: none;
+    background-repeat: no-repeat;
+    /* for FF */
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    /* for IE */
+    -ms-appearance: none;
+    appearance: none!important;
+    cursor: pointer;
+}
+
+select::-ms-expand {
+    display: none;
+}
