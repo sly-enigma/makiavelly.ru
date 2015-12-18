@@ -17,6 +17,10 @@ body {
     height: 100%;
 }
 
+.hidden {
+    display: none;
+}
+
 .outer-wrapper {
     position: relative;
     min-height: 100%;
@@ -83,6 +87,72 @@ button:focus {
         .inline-block;
         margin: 0px 0 0 49px;
         line-height: 26px;
+    }
+}
+
+.logged-user {
+    float: right;
+    margin: 27px 0 0 0px;
+
+    .links {
+        margin: 7px -9px 0 0px;
+
+        .link-item {
+            .font(14px, 'PT Sans', 400, #878787);
+            position: relative;
+            padding: 0 15px 0 15px;
+            .inline-block;
+
+            &:after {
+                content: '';
+                position: absolute;
+                right: 0;
+                top: 4px;
+                width: 1px;
+                height: 7px;
+                background: #dcddde;
+            }
+
+            &.welcome {
+                .font(14px, 'PT Sans', 600, #4a4a4a);
+
+                &:after {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .mailbox {
+        text-align: right;
+        margin: 22px 0px 0 0;
+
+        i {
+            width: 20px;
+            height: 14px;
+            background-size: 18px 18px;
+            background-position: 1px -2px;
+            background-repeat: no-repeat;
+            .inline-block;
+            margin-right: 10px;
+        }
+
+        a {
+            .font(14px, 'PT Sans', 400, #878787);
+        }
+
+        &.is-not-letter {
+            i {
+                background-color: #ca1200;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABBklEQVQ4T6WT200DMRREz1jim1ABlEAHgQpIKgA62HyDFB4FQAdJOiAVsHRAC3TgFBAP8j6UaBdQQvxjyZ45c31tiwOHDvQjP90VSMf/BEX5+d6YD8RwL0jjqQEwBo9A17tBvMAuUZi1AHC6ReEMmP4JsSfgmM1ZtwHUrgKnVbvZA/0Q0gWAPUdagN+gba5XBF+QVHSP2QfUsZeEFEkqgUjwiBQGwHu3qg7AX434BjxkvR5zFAYkzTAl0hI8B522oK0meon0Cn4BnVcCE6tZ5PS88AmaYOe3c7XdxEfsCJpuxL/cRYaKB+Ak31hTQUWuU3cetad9yk2JO7ubEzke/pn2zOzJvwG18nfMJTSEQwAAAABJRU5ErkJggg==');        }
+        }
+
+        &.is-letter {
+            i {
+                background-color: #c48f0f;
+                background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABBklEQVQ4T6WTzVXDMBCEv4kLwFQAJaSDQAUkFQAdOBUAZw7QQZIOSAWYDnLkSgdKAdbwZDsv/y8B67IHzX472l2Jjkcd85G/XwvExb9AdkgAY38hDf4EaXMagOKI2Bsi7s+CmBm4RJo0gHTsR9A14ukEZIwdUnLSrQENpcAsV5d7oANFdgA1ckrUDPkD1DbXS3rcUCk1fOuZ+4DaCLdkDkRKrEDmIZVyxOeuq22A+anFkQdggKsRWZYTmYBKzByYIq5WoE3AHPOO/Abqt4LQxryJXmCNEQVwt26ieUEkcZpAKz46iwB+xrpME2sdeLFR9axVqN2gfrPKPln1MFSE7p/pTL9HZb8hkXp9aOitwgAAAABJRU5ErkJggg==');
+            }
+        }
     }
 }
 
@@ -606,6 +676,7 @@ button:focus {
             &:hover {
                 background-color: #3a6aa8;
                 color: #fff;
+                border-color: #3a6aa8;
             }
         }
     }
@@ -1222,9 +1293,11 @@ input[type="radio"]:checked:disabled + label::before {
         .inline-block;
         .font(14px, 'PT Sans', 400, #4a4a4a);
         .transition();
-        padding: 4px 7px;
+        padding: 5px 0;
         margin: 0 1px;
         .rounded(50%);
+        width: 26px;
+        text-align: center;
 
         &.other-pages {
             &:hover {
@@ -1903,6 +1976,337 @@ select::-ms-expand {
         .rounded(20px);
         padding: 12px 71px 12px 57px;
         margin: 45px 0 0 0;
+    }
+}
+
+.b-product-details-page {
+    .content-logo {
+        float: right;
+        border: 1px solid #d1d1d1;
+        .rounded(6px);
+        padding: 56px 31px 50px 28px;
+        margin: 97px 26px 0 15px;
+    }
+
+    .video-product {
+        margin: 97px 0 0 0;
+        float: right;
+
+        .image {
+            padding: 8px 9px 5px 8px;
+            border: 1px solid #d1d1d1;
+            .rounded(6px);
+            background: #fff;
+
+            img {
+                display: block;
+            }
+        }
+
+        .send {
+            background: #6bb0bb;
+            line-height: 20px;
+            .font(16px, 'PT Sans', 400, #fff);
+            border: none;
+            .rounded(20px);
+            padding: 5px 25px 9px 25px;
+            position: relative;
+            top: 44px;
+        }
+
+        .documentation {
+            left: 37px;
+        }
+    }
+
+    .member-id {
+        .font(15px, 'PT Sans', 400, #2a67a5);
+        margin: 5px 0 0 5px;
+
+        span {
+            margin-left: 30px;
+        }
+    }
+
+    .send {
+        background: #396aa8;
+        line-height: 20px;
+        .font(14px, 'PT Sans', 400, #fff);
+        border: none;
+        .rounded(15px);
+        padding: 7px 35px;
+        margin: 20px 0 0 2px;
+    }
+
+    .contacts-details {
+        .font(15px, 'PT Sans', 400, #4a4a4a);
+        margin: 34px 0 0 2px;
+
+        span {
+            width: 72px;
+            .inline-block;
+        }
+
+        div {
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+
+        .person {
+            span {
+                width: 144px;
+            }
+        }
+    }
+
+    .line-letter {
+        position: relative;
+        margin: 43px 0 35px 0;
+
+        span {
+            .inline-block;
+            .font(18px, 'PT Sans', 600, #4a4a4a);
+            text-transform: uppercase;
+            padding: 6px 45px 0 0px;
+            margin: 0 -1px;
+            cursor: pointer;
+            background: #fff;
+        }
+
+        .border {
+            background: #dcddde;
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            top: 20px;
+            left: 48px;
+            z-index: -1;
+        }
+    }
+
+    .manufacturers-list {
+        margin: 41px 0 68px 0;
+        .columns(20%, 5, 28px, transparent);
+
+        div {
+            .font(14px, 'PT Sans', 400, #4a4a4a);
+            margin-bottom: 10px;
+        }
+    }
+
+    .caption-item {
+        .inline-block;
+        cursor: pointer;
+
+        a {
+            background: #e8e8e8;
+            .font(16px, 'PT Sans', 400, #4a4a4a);
+            width: 228px;
+            text-align: center;
+            line-height: 43px;
+            border-radius: 8px 8px 0 0;
+        }
+    }
+
+    .caption-content {
+        .title {
+            .font(30px, 'PT Sans', 400, #396aa8);
+            padding: 0 0 24px 0;
+        }
+
+        .link {
+            text-decoration: underline;
+            .font(16px, 'PT Sans', 400, #396aa8);
+        }
+    }
+
+    .ui-tabs {
+        padding: 0;
+
+        .ui-tabs-panel {
+            padding: 6px 0 0 0;
+        }
+
+        .ui-tabs-nav {
+            padding: 0;
+            border-bottom: 1px solid #e8e8e8;
+
+            li {
+                margin: 0 10px 0 0;
+                position: relative;
+                bottom: -6px;
+                top: inherit;
+                .transition();
+                outline-color: transparent;
+
+
+                &.ui-tabs-active {
+                    padding-bottom: 0;
+                    bottom: 0px;
+                    outline-color: transparent;
+
+                    &.ui-state-focus {outline-color:transparent}
+                    .ui-tabs-anchor {
+                        height: 46px;
+                        .font(18px, 'PT Sans', 600, #fff);
+                        text-transform: uppercase;
+                        background-color: #2a67a5;outline-color:transparent
+                    }
+                }
+            }
+
+            .ui-tabs-anchor {
+                height: 40px;
+                padding: 0;
+                .transition();
+            }
+        }
+    }
+
+    .sub-caption {
+        .font(14px, 'PT Sans', 400, #2a67a5);
+        text-transform: uppercase;
+        margin: 19px 0 0 0;
+    }
+
+    .caption-content {
+        .title {
+            .font(14px, 'PT Sans', 400, #2a67a5);
+            padding: 1px 0 0 78px;
+        }
+
+        .b-medical-category .list-items {
+            margin: 16px 0 0 0;
+        }
+    }
+
+    .list-items {
+        margin: 22px 0 0 0;
+
+        .title {
+            .font(14px, 'PT Sans', 400, #396aa8);
+            padding: 4px 0 0 30px;
+
+            &:before {
+                content: '';
+                .rounded(6px);
+                background: #396aa8;
+                width: 5px;
+                height: 5px;
+                .inline-block;
+                position: relative;
+                top: 4px;
+                left: -13px;
+            }
+        }
+
+        ul {
+            padding: 1px 0 0 78px;
+        }
+
+        li {
+            .font(14px, 'PT Sans', 400, #4a4a4a);
+            line-height: 18px;
+            margin: 0 0 -2px 0;
+
+            &:before {
+                content: '-';
+                color: #396aa8;
+                .inline-block;
+                position: relative;
+                left: -7px;
+            }
+
+            a {
+                color: #396aa8;
+            }
+        }
+    }
+
+    .b-medical-category {
+        padding: 26px 0 6px 0;
+    }
+
+    .facebook-widget {
+        margin: -13px 0 100px 0px;
+    }
+}
+
+#about-company {
+    p {
+        .font(14px, 'PT Sans', 400, #4a4a4a);
+    }
+}
+
+.p-product-details {
+    .g-title {
+        padding: 27px 0 25px 0;
+        line-height: 37px;
+    }
+
+    .video-product {
+        margin: 52px 0 0 0;
+
+        .image {
+            padding: 8px 9px 5px 8px;
+            border: 1px solid #d1d1d1;
+            .rounded(6px);
+            background: #fff;
+
+            img {
+                display: block;
+            }
+        }
+
+        .bottom {
+            margin: 22px 0 0 0;
+        }
+    }
+
+    .description-product {
+        .font(15px, 'PT Sans', 400, #4a4a4a);
+        margin: 23px 0 0 0;
+
+        span {
+            .inline-block;
+            padding: 0 15px 0 0;
+            .font(15px, 'PT Sans', 400, #396aa8);
+        }
+
+        div {
+            margin-bottom: 3px;
+            margin-top: 3px;
+        }
+    }
+
+    .descriptions {
+        padding: 8px 0 0 0;
+        margin: 30px 0 0 0;
+        width: 59%;
+
+        .description-title {
+            .font(15px, 'PT Sans', 600, #000);
+            text-transform: uppercase;
+            padding: 0 0 20px 0;
+        }
+
+        p {
+            .font(15px, 'PT Sans', 400, #000);
+            line-height: 18px;
+            padding: 0 0 19px 0;
+        }
+    }
+
+    .send-request {
+        background: #2a67a5;
+        line-height: 20px;
+        .font(16px, 'PT Sans', 400, #fff);
+        border: none;
+        .rounded(20px);
+        padding: 5px 25px 9px 25px;
+        position: relative;
+        margin: 18px 0 19px 0;
+        .inline-block;
     }
 }
 
