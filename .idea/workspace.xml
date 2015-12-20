@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d9dbc56-2277-4086-bbf9-727ae4c52bb5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/isramed/search.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/account.html" afterPath="$PROJECT_DIR$/isramed/account.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/common.css" afterPath="$PROJECT_DIR$/isramed/style/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/lottery.html" afterPath="$PROJECT_DIR$/isramed/lottery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/main.css" afterPath="$PROJECT_DIR$/isramed/style/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/main.less" afterPath="$PROJECT_DIR$/isramed/style/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/medical-company-details.html" afterPath="$PROJECT_DIR$/isramed/medical-company-details.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="makiavelly.ru.iws" />
@@ -29,11 +29,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/isramed/account.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.26923">
+              <caret line="236" column="54" selection-start-line="236" selection-start-column="54" selection-end-line="236" selection-end-column="54" />
+              <folding>
+                <element signature="n#table#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/isramed/style/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29166666">
-              <caret line="2376" column="19" selection-start-line="2376" selection-start-column="19" selection-end-line="2376" selection-end-column="19" />
+            <state vertical-scroll-proportion="0.48679245">
+              <caret line="2692" column="0" selection-start-line="2692" selection-start-column="0" selection-end-line="2692" selection-end-column="0" />
               <folding>
                 <element signature="e#2529#2986#2" expanded="true" />
                 <element signature="e#3123#3580#2" expanded="true" />
@@ -56,22 +73,36 @@
                 <element signature="e#28071#28504#2" expanded="true" />
                 <element signature="e#28868#29269#2" expanded="true" />
                 <element signature="e#34351#35234#0" expanded="false" />
-                <element signature="e#39598#39955#2" expanded="true" />
-                <element signature="e#45035#45484#2" expanded="true" />
-                <element signature="e#46205#46594#2" expanded="true" />
-                <element signature="e#57930#58355#2" expanded="true" />
-                <element signature="e#58582#59167#2" expanded="true" />
+                <element signature="e#40174#40531#2" expanded="true" />
+                <element signature="e#40778#41183#2" expanded="true" />
+                <element signature="e#41932#42289#2" expanded="true" />
+                <element signature="e#47369#47818#2" expanded="true" />
+                <element signature="e#48539#48928#2" expanded="true" />
+                <element signature="e#60224#60649#2" expanded="true" />
+                <element signature="e#60876#61461#2" expanded="true" />
+                <element signature="e#61953#65860#0" expanded="false" />
+                <element signature="e#62052#62413#2" expanded="true" />
+                <element signature="e#62531#63008#2" expanded="true" />
+                <element signature="e#63797#64154#2" expanded="true" />
+                <element signature="e#64486#64911#2" expanded="true" />
+                <element signature="e#65209#65794#2" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/isramed/account.html">
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/isramed/search.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="104" column="38" selection-start-line="101" selection-start-column="32" selection-end-line="104" selection-end-column="38" />
-              <folding />
+            <state vertical-scroll-proportion="-29.346153">
+              <caret line="347" column="71" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
+              <folding>
+                <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,7 +129,6 @@
         <option value="$PROJECT_DIR$/isramed/style/mixin.less" />
         <option value="$PROJECT_DIR$/isramed/style/common.less" />
         <option value="$PROJECT_DIR$/isramed/js/script.js" />
-        <option value="$PROJECT_DIR$/isramed/account.html" />
         <option value="$PROJECT_DIR$/isramed/asotiations.html" />
         <option value="$PROJECT_DIR$/isramed/contact.html" />
         <option value="$PROJECT_DIR$/isramed/manufactures.html" />
@@ -107,8 +137,13 @@
         <option value="$PROJECT_DIR$/isramed/index.html" />
         <option value="$PROJECT_DIR$/isramed/product-details.html" />
         <option value="$PROJECT_DIR$/isramed/lottery.html" />
-        <option value="$PROJECT_DIR$/isramed/style/main.less" />
         <option value="$PROJECT_DIR$/isramed/medical-company-details.html" />
+        <option value="$PROJECT_DIR$/isramed/search-result" />
+        <option value="$PROJECT_DIR$/isramed/search-result.html" />
+        <option value="$PROJECT_DIR$/isramed/search-resulte.html" />
+        <option value="$PROJECT_DIR$/isramed/search.html" />
+        <option value="$PROJECT_DIR$/isramed/account.html" />
+        <option value="$PROJECT_DIR$/isramed/style/main.less" />
       </list>
     </option>
   </component>
@@ -381,9 +416,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31240544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31240544" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32899022" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -435,20 +470,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/isramed/asotiations.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="68" selection-start-line="58" selection-start-column="68" selection-end-line="58" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isramed/style/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -475,11 +496,19 @@
             <element signature="e#28071#28504#2" expanded="true" />
             <element signature="e#28868#29269#2" expanded="true" />
             <element signature="e#34351#35234#0" expanded="false" />
-            <element signature="e#39598#39955#2" expanded="true" />
-            <element signature="e#45035#45484#2" expanded="true" />
-            <element signature="e#46205#46594#2" expanded="true" />
-            <element signature="e#57930#58355#2" expanded="true" />
-            <element signature="e#58582#59167#2" expanded="true" />
+            <element signature="e#40174#40531#2" expanded="true" />
+            <element signature="e#40778#41183#2" expanded="true" />
+            <element signature="e#41932#42289#2" expanded="true" />
+            <element signature="e#47369#47818#2" expanded="true" />
+            <element signature="e#48539#48928#2" expanded="true" />
+            <element signature="e#60224#60649#2" expanded="true" />
+            <element signature="e#60876#61461#2" expanded="true" />
+            <element signature="e#61953#65860#0" expanded="false" />
+            <element signature="e#62052#62413#2" expanded="true" />
+            <element signature="e#62531#63008#2" expanded="true" />
+            <element signature="e#63797#64154#2" expanded="true" />
+            <element signature="e#64486#64911#2" expanded="true" />
+            <element signature="e#65209#65794#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -555,11 +584,19 @@
             <element signature="e#28071#28504#2" expanded="true" />
             <element signature="e#28868#29269#2" expanded="true" />
             <element signature="e#34351#35234#0" expanded="false" />
-            <element signature="e#39598#39955#2" expanded="true" />
-            <element signature="e#45035#45484#2" expanded="true" />
-            <element signature="e#46205#46594#2" expanded="true" />
-            <element signature="e#57930#58355#2" expanded="true" />
-            <element signature="e#58582#59167#2" expanded="true" />
+            <element signature="e#40174#40531#2" expanded="true" />
+            <element signature="e#40778#41183#2" expanded="true" />
+            <element signature="e#41932#42289#2" expanded="true" />
+            <element signature="e#47369#47818#2" expanded="true" />
+            <element signature="e#48539#48928#2" expanded="true" />
+            <element signature="e#60224#60649#2" expanded="true" />
+            <element signature="e#60876#61461#2" expanded="true" />
+            <element signature="e#61953#65860#0" expanded="false" />
+            <element signature="e#62052#62413#2" expanded="true" />
+            <element signature="e#62531#63008#2" expanded="true" />
+            <element signature="e#63797#64154#2" expanded="true" />
+            <element signature="e#64486#64911#2" expanded="true" />
+            <element signature="e#65209#65794#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -628,11 +665,19 @@
             <element signature="e#28071#28504#2" expanded="true" />
             <element signature="e#28868#29269#2" expanded="true" />
             <element signature="e#34351#35234#0" expanded="false" />
-            <element signature="e#39598#39955#2" expanded="true" />
-            <element signature="e#45035#45484#2" expanded="true" />
-            <element signature="e#46205#46594#2" expanded="true" />
-            <element signature="e#57930#58355#2" expanded="true" />
-            <element signature="e#58582#59167#2" expanded="true" />
+            <element signature="e#40174#40531#2" expanded="true" />
+            <element signature="e#40778#41183#2" expanded="true" />
+            <element signature="e#41932#42289#2" expanded="true" />
+            <element signature="e#47369#47818#2" expanded="true" />
+            <element signature="e#48539#48928#2" expanded="true" />
+            <element signature="e#60224#60649#2" expanded="true" />
+            <element signature="e#60876#61461#2" expanded="true" />
+            <element signature="e#61953#65860#0" expanded="false" />
+            <element signature="e#62052#62413#2" expanded="true" />
+            <element signature="e#62531#63008#2" expanded="true" />
+            <element signature="e#63797#64154#2" expanded="true" />
+            <element signature="e#64486#64911#2" expanded="true" />
+            <element signature="e#65209#65794#2" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -847,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614">
-          <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/isramed/product-details.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-17.307692">
@@ -865,14 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3642857">
           <caret line="93" column="22" selection-start-line="90" selection-start-column="16" selection-end-line="93" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="104" column="38" selection-start-line="101" selection-start-column="32" selection-end-line="104" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -904,10 +934,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27321428">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.346153">
+          <caret line="347" column="71" selection-start-line="347" selection-start-column="71" selection-end-line="347" selection-end-column="71" />
+          <folding>
+            <element signature="n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.26923">
+          <caret line="236" column="54" selection-start-line="236" selection-start-column="54" selection-end-line="236" selection-end-column="54" />
+          <folding>
+            <element signature="n#table#0;n#div#0;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#3;n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/isramed/style/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29166666">
-          <caret line="2376" column="19" selection-start-line="2376" selection-start-column="19" selection-end-line="2376" selection-end-column="19" />
+        <state vertical-scroll-proportion="0.48679245">
+          <caret line="2692" column="0" selection-start-line="2692" selection-start-column="0" selection-end-line="2692" selection-end-column="0" />
           <folding>
             <element signature="e#2529#2986#2" expanded="true" />
             <element signature="e#3123#3580#2" expanded="true" />
@@ -930,11 +997,19 @@
             <element signature="e#28071#28504#2" expanded="true" />
             <element signature="e#28868#29269#2" expanded="true" />
             <element signature="e#34351#35234#0" expanded="false" />
-            <element signature="e#39598#39955#2" expanded="true" />
-            <element signature="e#45035#45484#2" expanded="true" />
-            <element signature="e#46205#46594#2" expanded="true" />
-            <element signature="e#57930#58355#2" expanded="true" />
-            <element signature="e#58582#59167#2" expanded="true" />
+            <element signature="e#40174#40531#2" expanded="true" />
+            <element signature="e#40778#41183#2" expanded="true" />
+            <element signature="e#41932#42289#2" expanded="true" />
+            <element signature="e#47369#47818#2" expanded="true" />
+            <element signature="e#48539#48928#2" expanded="true" />
+            <element signature="e#60224#60649#2" expanded="true" />
+            <element signature="e#60876#61461#2" expanded="true" />
+            <element signature="e#61953#65860#0" expanded="false" />
+            <element signature="e#62052#62413#2" expanded="true" />
+            <element signature="e#62531#63008#2" expanded="true" />
+            <element signature="e#63797#64154#2" expanded="true" />
+            <element signature="e#64486#64911#2" expanded="true" />
+            <element signature="e#65209#65794#2" expanded="true" />
           </folding>
         </state>
       </provider>
