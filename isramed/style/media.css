@@ -5,10 +5,6 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext);
 @import "jquery-ui.min.css";
 @import "jquery-ui.structure.min.css";
-.wrapper-center {
-  width: 1240px;
-  margin: 0 auto;
-}
 * {
   margin: 0;
   padding: 0;
@@ -3444,6 +3440,10 @@ select::-ms-expand {
 }
 .p-medical-company-details .share-network {
   margin: 30px 0 53px 0px;
+}
+.wrapper-center {
+  width: 1240px;
+  margin: 0 auto;
 }
 @media screen and (max-width: 1270px) {
   .wrapper-center {
