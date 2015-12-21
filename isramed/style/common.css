@@ -2449,6 +2449,37 @@ select::-ms-expand {
   padding: 56px 31px 50px 28px;
   margin: 97px 26px 0 15px;
 }
+.b-product-details-page .share-network {
+  width: 470px;
+  background: #f3f3f3;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #000;
+  height: 42px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 13px 0 0 21px;
+  margin: 16px 0px 53px 46px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-product-details-page .share-network img {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: -3px 0 0 61px;
+}
 .b-product-details-page .video-product {
   margin: 97px 0 0 0;
   float: right;
@@ -2550,7 +2581,7 @@ select::-ms-expand {
 }
 .b-product-details-page .line-letter .border {
   background: #dcddde;
-  width: 100%;
+  width: 55%;
   height: 1px;
   position: absolute;
   top: 20px;
@@ -2757,7 +2788,7 @@ select::-ms-expand {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
   padding: 13px 0 0 21px;
-  margin: 37px 54px 53px 0px;
+  margin: 14px 0 53px 44px;
 }
 .b-product-details-page .share-network img {
   display: -moz-inline-stack;
@@ -3403,6 +3434,9 @@ select::-ms-expand {
   background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABQklEQVRYR7XXsXXDIBAG4Dt1okmyQVRKNNkg9gSON1AmSzawM4E9QhqJUt4grkTH5d17cZMCc3CoFbz/E+9AB0Lkcc6NIYRXa+17bFzJO4xNnqbpBRHPRHSohYgCGOecew4hHBHxp23bfdd115Iv/j/3LoAnLMvyuK7rGQDIGLPVRCQBaiKSAbUQIkANhBigjcgCaCKyAVqIIsAN4b0/EtFD0zT7vu8vknOiGHALm+f5k4h2ALC11n6nItQAHJiDUAXkINQBUkQVgARRFQAAb0S0iRVlFQAXY0o4r5Q6QBKuDpCGqwJywlUA3C157w9E9AQAo+QULAb8tWonriVjzCanVcsuQo3w7BXQCs8CaIaLAdrhIkCN8GRArfAkAN8PAeCjZKvFuqO7l1MAOCHi1zAMY2qbJRkXBfD1nH+ntcIZ+gt23wYw2PcesgAAAABJRU5ErkJggg==');
   right: -42px;
   background-position: 0 -1px;
+}
+.p-medical-company-details .share-network {
+  margin: 30px 0 53px 0px;
 }
 .wrapper-center {
   width: 1240px;
