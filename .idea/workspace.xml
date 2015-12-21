@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d9dbc56-2277-4086-bbf9-727ae4c52bb5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/create.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/isramed/style/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/account.html" afterPath="$PROJECT_DIR$/isramed/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/common.css" afterPath="$PROJECT_DIR$/isramed/style/common.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/index.html" afterPath="$PROJECT_DIR$/isramed/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/main.css" afterPath="$PROJECT_DIR$/isramed/style/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/isramed/style/main.less" afterPath="$PROJECT_DIR$/isramed/style/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/create.html" afterPath="$PROJECT_DIR$/create.html" />
     </list>
     <ignored path="makiavelly.ru.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,21 +50,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="account.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/isramed/account.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.74285716">
+            <state vertical-scroll-proportion="-16.0">
               <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="create.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/create.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3076923">
-              <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.9392857">
+              <caret line="479" column="1" selection-start-line="479" selection-start-column="1" selection-end-line="479" selection-end-column="1" />
               <folding>
                 <element signature="n#div#0;n#!!top" expanded="false" />
                 <element signature="n#form#0;n#!!top" expanded="false" />
@@ -93,8 +86,8 @@
       <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/isramed/style/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.121951">
-              <caret line="3000" column="16" selection-start-line="3000" selection-start-column="16" selection-end-line="3000" selection-end-column="16" />
+            <state vertical-scroll-proportion="-0.18292683">
+              <caret line="2674" column="0" selection-start-line="2674" selection-start-column="0" selection-end-line="2960" selection-end-column="1" />
               <folding>
                 <element signature="e#2529#2986#2" expanded="true" />
                 <element signature="e#3123#3580#2" expanded="true" />
@@ -131,6 +124,7 @@
                 <element signature="e#64210#64567#2" expanded="true" />
                 <element signature="e#64899#65324#2" expanded="true" />
                 <element signature="e#65622#66207#2" expanded="true" />
+                <element signature="e#66540#71787#0" expanded="false" />
                 <element signature="e#72172#72685#2" expanded="true" />
                 <element signature="e#72773#73310#2" expanded="true" />
               </folding>
@@ -185,8 +179,8 @@
         <option value="$PROJECT_DIR$/isramed/index.html" />
         <option value="$PROJECT_DIR$/isramed/style/main.less" />
         <option value="$PROJECT_DIR$/isramed/style/media.less" />
-        <option value="$PROJECT_DIR$/create.html" />
         <option value="$PROJECT_DIR$/isramed/account.html" />
+        <option value="$PROJECT_DIR$/create.html" />
       </list>
     </option>
   </component>
@@ -591,6 +585,7 @@
             <element signature="e#64210#64567#2" expanded="true" />
             <element signature="e#64899#65324#2" expanded="true" />
             <element signature="e#65622#66207#2" expanded="true" />
+            <element signature="e#66540#71787#0" expanded="false" />
             <element signature="e#72172#72685#2" expanded="true" />
             <element signature="e#72773#73310#2" expanded="true" />
           </folding>
@@ -675,6 +670,7 @@
             <element signature="e#64210#64567#2" expanded="true" />
             <element signature="e#64899#65324#2" expanded="true" />
             <element signature="e#65622#66207#2" expanded="true" />
+            <element signature="e#66540#71787#0" expanded="false" />
             <element signature="e#72172#72685#2" expanded="true" />
             <element signature="e#72773#73310#2" expanded="true" />
           </folding>
@@ -927,10 +923,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/product-details.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.076923">
+          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
+          <folding>
+            <element signature="n#menu#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#1;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#div#2;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/isramed/account.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.0">
+          <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/isramed/style/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.121951">
-          <caret line="3000" column="16" selection-start-line="3000" selection-start-column="16" selection-end-line="3000" selection-end-column="16" />
+        <state vertical-scroll-proportion="-0.18292683">
+          <caret line="2674" column="0" selection-start-line="2674" selection-start-column="0" selection-end-line="2960" selection-end-column="1" />
           <folding>
             <element signature="e#2529#2986#2" expanded="true" />
             <element signature="e#3123#3580#2" expanded="true" />
@@ -967,60 +1003,21 @@
             <element signature="e#64210#64567#2" expanded="true" />
             <element signature="e#64899#65324#2" expanded="true" />
             <element signature="e#65622#66207#2" expanded="true" />
+            <element signature="e#66540#71787#0" expanded="false" />
             <element signature="e#72172#72685#2" expanded="true" />
             <element signature="e#72773#73310#2" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/product-details.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.076923">
-          <caret line="151" column="42" selection-start-line="151" selection-start-column="42" selection-end-line="151" selection-end-column="42" />
-          <folding>
-            <element signature="n#menu#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#8;n#div#0;n#div#0;n#div#3;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/create.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="191" column="7" selection-start-line="191" selection-start-column="7" selection-end-line="191" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.9392857">
+          <caret line="479" column="1" selection-start-line="479" selection-start-column="1" selection-end-line="479" selection-end-column="1" />
           <folding>
             <element signature="n#div#0;n#!!top" expanded="false" />
             <element signature="n#form#0;n#!!top" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/isramed/account.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74285716">
-          <caret line="218" column="15" selection-start-line="218" selection-start-column="15" selection-end-line="218" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
