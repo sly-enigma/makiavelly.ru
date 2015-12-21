@@ -22,6 +22,29 @@ $(document).ready(function(){
         }
     });
 
+    $('.b-video-carousel').owlCarousel({
+        loop:true,
+        margin:20,
+        navText: false,
+        nav:true,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:3
+            },
+            1000:{
+                items:5
+            }
+        }
+    });
+
     $( "#account-tabs" ).tabs();
+
+    $("#upload_link").on('click', function(e){
+        e.preventDefault();
+        $("#upload:hidden").trigger('click');
+    });
 });
 

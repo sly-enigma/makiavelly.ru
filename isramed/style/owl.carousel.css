@@ -221,4 +221,5 @@
 
 .owl-carousel.main-page-slider {
   width: 93%;
+  position: relative;
 }
