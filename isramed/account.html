@@ -5,6 +5,7 @@
     <title>Account</title>
     <link rel="stylesheet" type="text/css" href="style/reset.css">
     <link rel="stylesheet" type="text/css" href="style/common.css">
+    <link rel="stylesheet" type="text/css" href="style/media.css">
     <link rel="stylesheet" href="style/owl.carousel.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
@@ -13,21 +14,20 @@
 </head>
 <body class="p-account">
 <div class="outer-wrapper">
+    <menu class="b-menu-head">
+        <div class="wrapper-center">
+            <a href="" class="b-menu-head-item-link first active">Home-search</a>
+            <a href="" class="b-menu-head-item-link">Help</a>
+            <a href="" class="b-menu-head-item-link">Isramed forum</a>
+            <a href="" class="b-menu-head-item-link">Administration blog</a>
+            <a href="" class="b-menu-head-item-link">Administration Departments</a>
+            <a href="" class="b-menu-head-item-link">Go to Services</a>
+            <a href="" class="b-menu-head-item-link">Article</a>
+            <a href="" class="b-menu-head-item-link">Quizzes</a>
+            <a href="contact.html" class="b-menu-head-item-link last">Contacts us</a>
+        </div>
+    </menu>
     <header class="wrapper-center">
-        <menu class="b-menu-head">
-            <div class="wrapper-center">
-                <a href="" class="b-menu-head-item-link first active">Home-search</a>
-                <a href="" class="b-menu-head-item-link">Help</a>
-                <a href="" class="b-menu-head-item-link">Isramed forum</a>
-                <a href="" class="b-menu-head-item-link">Administration blog</a>
-                <a href="" class="b-menu-head-item-link">Administration Departments</a>
-                <a href="" class="b-menu-head-item-link">Go to Services</a>
-                <a href="" class="b-menu-head-item-link">Article</a>
-                <a href="" class="b-menu-head-item-link">Quizzes</a>
-                <a href="contact.html" class="b-menu-head-item-link last">Contacts us</a>
-            </div>
-        </menu>
-
         <div class="b-logo">
             <a href=""><img src="images/logo.png" alt="" title=""></a>
 
@@ -82,68 +82,193 @@
                     <li class="caption-item"><a href="#edit-profiles">Edit Products</a></li>
                     <li class="caption-item"><a href="#create-quiz">Create Quiz</a></li>
                 </ul>
-                <div id="personal-page" class="caption-content">
+                <div id="personal-page" class="caption-content quotation">
+                    <div class="title">
+                        Quotation Request
+                    </div>
+
+                    <div class="content-logo">
+                        <img src="images/logo.png" alt="">
+                    </div>
+
+                    <div class="information">
+                        <a href="" class="link">Isramed.Info Server</a>
+                        <div>POB:18174</div>
+                        <div>E-mail is closed by member</div>
+                        <div>http://www.isramed.info</div>
+                    </div>
+
+                    <div class="to">
+                        <span>To:</span><input type="text">
+                    </div>
+
+                    <div class="subtitle">
+                        Quotation Request
+                        <div class="text">
+                            Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan,
+                        </div>
+                    </div>
+
+                    <table class="t-record">
+                        <tbody><tr class="caption">
+                            <td class="col-1"></td>
+                            <td class="col-2">Sv</td>
+                            <td class="col-3">Product Name</td>
+                            <td class="col-4">Model</td>
+                            <td class="col-5">Cat.No</td>
+                            <td class="col-6">Manufacturer</td>
+                            <td class="col-7">Description</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <input id="checkbox5" type="checkbox" name="second" hidden="">
+                                    <label for="checkbox5"></label>
+                                </div>
+                            </td>
+                            <td>Sv</td>
+                            <td>IsraMed Basic Account</td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td>IsraMed Basic Account. Supplier IsraMed.Info Server, Israel</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div>
+                                    <input id="checkbox6" type="checkbox" name="second" hidden="">
+                                    <label for="checkbox6"></label>
+                                </div>
+                            </td>
+                            <td>Sv</td>
+                            <td>IsraMed FAX Service</td>
+                            <td></td>
+                            <td></td>
+                            <td>IsraMed.Info Server</td>
+                            <td>Web FAX Service on IsraMed.Info Server for document/info sending</td>
+                        </tr>
+                        </tbody></table>
+
+                    <div class="choose">
+                        <span class="choose-title">Acem Srl:</span>
+                        <div class="choose-item">
+                            <input id="checkbox4" type="checkbox" name="second" hidden="">
+                            <label for="checkbox4">Sv</label>
+                        </div>
+                        <div class="choose-item">
+                            <input id="checkbox8" type="checkbox" name="second" hidden="">
+                            <label for="checkbox8">Sv</label>
+                        </div>
+                        <div class="choose-item">
+                            <input id="checkbox9" type="checkbox" name="second" hidden="">
+                            <label for="checkbox9">Cat.No</label>
+                        </div>
+                        <div class="choose-item">
+                            <input id="checkbox10" type="checkbox" name="second" hidden="">
+                            <label for="checkbox10">POB</label>
+                        </div>
+                    </div>
+
+                    <div class="textfield">
+                        <span class="textfield-title">Acem Srl:</span>
+                        <textarea name="" id="" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="signature">
+                        <span>Signature:</span><input type="text">
+                    </div>
+
+                    <div class="connect">
+                        <div class="connect-item">
+                            <span class="caption">Send Internal document</span>
+
+                            <div class="choose-item">
+                                <input id="checkbox11" type="checkbox" name="second" hidden="">
+                                <label for="checkbox11"></label>
+                            </div>
+                        </div>
+
+                        <div class="connect-item">
+                            <span class="caption">Send E-mail</span>
+
+                            <div class="choose-item">
+                                <input id="checkbox12" type="checkbox" name="second" hidden="">
+                                <label for="checkbox12">Send Internal document</label>
+                            </div>
+                        </div>
+
+                        <div class="connect-item">
+                            <span class="caption">Send SMS</span>
+
+                            <div class="choose-item">
+                                <input id="checkbox13" type="checkbox" name="second" hidden="">
+                                <label for="checkbox13">Send Internal document</label>
+                            </div>
+                        </div>
+
+                        <button class="send">Send Quotation Request</button>
+                    </div>
+                </div>
+                <div id="docbox" class="caption-content">
                     <div class="title">
                         Create Quiz
                     </div>
                     <a href="" class="link">New quize record</a>
+                    <div class="wrapper-center table">
+                        <table class="t-record">
+                            <tr class="caption">
+                                <td class="col-1"></td>
+                                <td class="col-2">Quiz Name</td>
+                                <td class="col-3">Start Date:</td>
+                                <td class="col-4">Finish Date:</td>
+                                <td class="col-5">Description</td>
+                                <td class="col-6">Action</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input id="checkbox1" type="checkbox" name="second" hidden />
+                                        <label for="checkbox1"></label>
+                                    </div>
+                                </td>
+                                <td>IsraMed Basic</td>
+                                <td>10-11-2015</td>
+                                <td>10-12-2015</td>
+                                <td></td>
+                                <td>
+                                    <i class="close"></i>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input id="checkbox2" type="checkbox" name="second" hidden />
+                                        <label for="checkbox2"></label>
+                                    </div>
+                                </td>
+                                <td>IsraMed Basic</td>
+                                <td>10-11-2015</td>
+                                <td>10-12-2015</td>
+                                <td></td>
+                                <td><i class="close"></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input id="checkbox3" type="checkbox" name="second" hidden />
+                                        <label for="checkbox3"></label>
+                                    </div>
+                                </td>
+                                <td>IsraMed Basic </td>
+                                <td>10-11-2015</td>
+                                <td>10-12-2015</td>
+                                <td></td>
+                                <td><i class="close"></i></td>
+                            </tr>
+                        </table>
+                    </div>
 
-                    <table class="t-record">
-                        <tr class="caption">
-                            <td class="col-1"></td>
-                            <td class="col-2">Quiz Name</td>
-                            <td class="col-3">Start Date:</td>
-                            <td class="col-4">Finish Date:</td>
-                            <td class="col-5">Description</td>
-                            <td class="col-6">Action</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <input id="checkbox1" type="checkbox" name="second" hidden />
-                                    <label for="checkbox1"></label>
-                                </div>
-                            </td>
-                            <td>IsraMed Basic</td>
-                            <td>10-11-2015</td>
-                            <td>10-12-2015</td>
-                            <td></td>
-                            <td>
-                                <i class="close"></i>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <input id="checkbox2" type="checkbox" name="second" hidden />
-                                    <label for="checkbox2"></label>
-                                </div>
-                            </td>
-                            <td>IsraMed Basic</td>
-                            <td>10-11-2015</td>
-                            <td>10-12-2015</td>
-                            <td></td>
-                            <td><i class="close"></i></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <input id="checkbox3" type="checkbox" name="second" hidden />
-                                    <label for="checkbox3"></label>
-                                </div>
-                            </td>
-                            <td>IsraMed Basic </td>
-                            <td>10-11-2015</td>
-                            <td>10-12-2015</td>
-                            <td></td>
-                            <td><i class="close"></i></td>
-                        </tr>
-                    </table>
-                    <button class="send">Delete checked quiz(es)</button>
-
-                </div>
-                <div id="docbox" class="caption-content">
-                    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+                    <button class="send delete-quiz">Delete checked quiz(es)</button>
                 </div>
                 <div id="edit-profile" class="caption-content">
                     <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
@@ -163,52 +288,246 @@
                         <a href="">Download the excel table format</a>
                     </div>
 
-                    <table class="t-record">
-                        <tbody><tr class="caption">
-                            <td class="col-1"></td>
-                            <td class="col-2">Sv</td>
-                            <td class="col-3">Product Name</td>
-                            <td class="col-4">Model</td>
-                            <td class="col-5">Cat.No</td>
-                            <td class="col-6">Manufacturer</td>
-                            <td class="col-7">Description</td>
-                            <td class="col-8">Action</td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <input id="checkbox20" type="checkbox" name="second" hidden="">
-                                    <label for="checkbox20"></label>
-                                </div>
-                            </td>
-                            <td>Sv</td>
-                            <td>IsraMed Basic Account</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td>IsraMed Basic Account. Supplier IsraMed.Info Server, Israel</td>
-                            <td><i class="settings"></i><i class="close"></i></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div>
-                                    <input id="checkbox21" type="checkbox" name="second" hidden="">
-                                    <label for="checkbox21"></label>
-                                </div>
-                            </td>
-                            <td>Sv</td>
-                            <td>IsraMed FAX Service</td>
-                            <td></td>
-                            <td></td>
-                            <td>IsraMed.Info Server</td>
-                            <td>Web FAX Service on IsraMed.Info Server for document/info sending</td>
-                            <td></td>
-                        </tr>
-                        </tbody></table>
+                    <div class="wrapper-center table">
+                        <table class="t-record">
+                            <tbody><tr class="caption">
+                                <td class="col-1"></td>
+                                <td class="col-2">Sv</td>
+                                <td class="col-3">Product Name</td>
+                                <td class="col-4">Model</td>
+                                <td class="col-5">Cat.No</td>
+                                <td class="col-6">Manufacturer</td>
+                                <td class="col-7">Description</td>
+                                <td class="col-8">Action</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input id="checkbox20" type="checkbox" name="second" hidden="">
+                                        <label for="checkbox20"></label>
+                                    </div>
+                                </td>
+                                <td>Sv</td>
+                                <td>IsraMed Basic Account</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td>IsraMed Basic Account. Supplier IsraMed.Info Server, Israel</td>
+                                <td><i class="settings"></i><i class="close"></i></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div>
+                                        <input id="checkbox21" type="checkbox" name="second" hidden="">
+                                        <label for="checkbox21"></label>
+                                    </div>
+                                </td>
+                                <td>Sv</td>
+                                <td>IsraMed FAX Service</td>
+                                <td></td>
+                                <td></td>
+                                <td>IsraMed.Info Server</td>
+                                <td>Web FAX Service on IsraMed.Info Server for document/info sending</td>
+                                <td></td>
+                            </tr>
+                            </tbody></table>
+                    </div>
+
                     <button class="send">Delete checked product(s)</button>
                 </div>
                 <div id="create-quiz" class="caption-content">
+                    <div class="title">
+                        Create Quiz
+                    </div>
+                    <div class="note">(<span>*</span>) means that this field is mandatory</div>
+                    <form action="">
+                        <div class="name-info">
+                            <div class="name">
+                                <span>Quiz Name:</span>
+                                <input type="text">
+                            </div>
+                            <div class="start-date">
+                                <span>Start Date:</span>
+                                <input type="text">
+                            </div>
+                            <div class="finish-date">
+                                <span>Finish Date:</span>
+                                <input type="text">
+                            </div>
+                            <div class="prizes-leaved">
+                                <span>Prizes leaved:</span>
+                                <input type="text">
+                            </div>
+                            <div class="wined">
+                                <span>Wined:</span>
+                                <input type="text">
 
+                                <a href="" class="send">Update</a>
+                            </div>
+
+                            <div class="border"></div>
+
+                            <div class="rules">
+                                <span>Quiz Rules(ENG):</span>
+                                <textarea name="" cols="30" rows="10"></textarea>
+                            </div>
+                            <div class="rules">
+                                <span>Quiz Rules(HEB):</span>
+                                <textarea name="" cols="30" rows="10"></textarea>
+                            </div>
+
+                            <div class="description">
+                                <div class="line-letter">
+                                    <span>Prize Details</span>
+                                    <div class="border"></div>
+                                </div>
+                                <div class="rules">
+                                    <span>Description <br>(512 chars maximum):</span>
+                                    <textarea name="" cols="30" rows="10"></textarea>
+                                </div>
+                                <div class="file-upload">
+                                    <span>Upload Prize Image <br>(up to 20 MB)</span>
+                                    <input id="upload" type="file"/>
+                                    <a href="" id="upload_link" class="upload">Choose file</a>?
+                                </div>
+                            </div>
+
+                            <div class="question-list">
+                                <div class="line-letter">
+                                    <span>Questions List</span>
+                                    <div class="border"></div>
+                                </div>
+
+                                <a href="" class="link">Add question</a>
+
+                                <table class="t-record">
+                                    <tr class="caption">
+                                        <td class="col-1">Question</td>
+                                        <td colspan="3">How many basic parameters there are at ECG monitor?</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="4" class="question-number">1</td>
+                                        <td class="tr-2 col-2">Answer</td>
+                                        <td class="tr-2 col-3">Answer Description</td>
+                                        <td class="tr-2 col-4">Delete</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span>1</span>
+                                                <input id="checkbox25" type="checkbox" name="second" hidden="">
+                                                <label for="checkbox25"></label>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td><i class="close"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span>2</span>
+                                                <input id="checkbox26" type="checkbox" name="second" hidden="">
+                                                <label for="checkbox26"></label>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td><i class="close"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="link-list">
+                                                <a href="">Add Answer</a>
+                                                <a href="">Delete Question</a>
+                                                <a href="">Save Question</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                                <table class="t-record">
+                                    <tr class="caption">
+                                        <td class="col-1">Question</td>
+                                        <td colspan="3">How many basic parameters there are at ECG monitor?</td>
+                                    </tr>
+                                    <tr>
+                                        <td rowspan="4" class="question-number">2</td>
+                                        <td class="tr-2 col-2">Answer</td>
+                                        <td class="tr-2 col-3">Answer Description</td>
+                                        <td class="tr-2 col-4">Delete</td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span>1</span>
+                                                <input id="checkbox27" type="checkbox" name="second" hidden="">
+                                                <label for="checkbox27"></label>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td><i class="close"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div>
+                                                <span>2</span>
+                                                <input id="checkbox28" type="checkbox" name="second" hidden="">
+                                                <label for="checkbox28"></label>
+                                            </div>
+                                        </td>
+                                        <td></td>
+                                        <td><i class="close"></i></td>
+                                    </tr>
+                                    <tr>
+                                        <td colspan="3">
+                                            <div class="link-list">
+                                                <a href="">Add Answer</a>
+                                                <a href="">Delete Question</a>
+                                                <a href="">Save Question</a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                                <div class="link-list">
+                                    <a href="">Add Answer</a>
+                                    <a href="">Delete Question</a>
+                                    <a href="">Save Question</a>
+                                </div>
+                            </div>
+
+                            <div class="user-logs">
+                                <div class="line-letter">
+                                    <span>User Logs</span>
+                                    <div class="border"></div>
+                                </div>
+
+                                <table class="t-record">
+                                    <tr class="caption">
+                                        <td class="col-1">№</td>
+                                        <td class="col-2">Member Name</td>
+                                        <td class="col-3">Department</td>
+                                        <td class="col-4">Result</td>
+                                        <td class="col-5">Time & Date</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Beilinson Hospital </td>
+                                        <td>Lung Dept.</td>
+                                        <td>Win</td>
+                                        <td>10:15 10-11-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Beilinson Hospital </td>
+                                        <td>Lung Dept.</td>
+                                        <td>Win</td>
+                                        <td>10:15 10-11-2015</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>

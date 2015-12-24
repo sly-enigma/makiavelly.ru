@@ -1,10 +1,910 @@
-@import "jquery-ui.min.css";
-@import "jquery-ui.structure.min.css";
 @import "mixin";
-@import "common";
 
 @media screen and (max-width: 1270px) {
-  .wrapper-center {
+  footer .wrapper-center, .wrapper-center {
     width: 100%;
+    padding: 0 3%;
+    .box-sizing();
+  }
+
+  .b-personal-search {
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    .send {
+      right: 12px;
+    }
+  }
+
+  .b-filters {
+    .section-item-categories {
+      .send {
+        right: 25px;
+      }
+    }
+
+    .column {
+      &.last {
+        margin-top: 0;
+      }
+    }
+  }
+
+  .b-information {
+    .description {
+      span {
+        margin-top: 3px;
+      }
+    }
+  }
+
+  .b-menu-head-item-link {
+    padding: 0 2%;
+  }
+
+  footer {
+    .logo {
+      margin-right: 1%;
+    }
+
+    .col-1 {
+      margin-right: 3%;
+    }
+
+    .col-2 {
+      margin-right: 5%;
+    }
+  }
+
+  .b-manufactures {
+    .b-choose-letter {
+      margin: 25px 0 0 0;
+    }
+  }
+
+  .b-medical-category.wrapper-center {
+    margin: 1% 0;
+  }
+
+  .account-tabs {
+    .caption-item {
+      a {
+        width: 185px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1180px) {
+  footer {
+    .col-2 {
+      margin-right: 2%;
+    }
+  }
+
+  .lottery-item {
+    width: 25%;
+  }
+
+  .b-personal-search {
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+    .send {
+      right: 18px;
+    }
+  }
+
+  .letter-item {
+    margin: 0 2px;
+  }
+
+  .b-medical-companies .letter-item {
+    margin: 0 2px;
+  }
+
+  .account-tabs {
+    .caption-item {
+      a {
+        width: 170px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .b-information {
+    .main-text {
+      font-size: 14px;
+    }
+
+    .description {
+      font-size: 12px;
+    }
+  }
+
+  .product-item {
+    width: 25%;
+
+    .image {
+      overflow: hidden;
+    }
+  }
+
+  footer {
+    .logo {
+      display: none;
+    }
+
+    .tagline {
+      margin: 25px 0 0 0;
+    }
+
+    .caption {
+      font-size: 13px;
+    }
+
+    .footer-list-items {
+      margin-top: 10px;
+
+      a {
+        font-size: 13px;
+      }
+    }
+
+    .number-phone {
+      margin-top: 10px;
+
+      span, .email {
+        font-size: 13px;
+      }
+    }
+  }
+
+  .b-choose-letter {
+    .letters {
+      float: none;
+      margin: 10px 0 0 -10px;
+    }
+  }
+
+  .b-medical-companies {
+    .letters {
+      float: none;
+      margin: 10px 0 0 -10px;
+    }
+  }
+
+  .b-product-details-page {
+    .share-network {
+      margin: 14px 0 53px 0px;
+      display: block;
+    }
+  }
+
+  .p-product-details {
+    .video-product {
+      margin-left: 30px;
+    }
+  }
+
+  .wrapper-center.table {
+    overflow-x: scroll;
+  }
+
+  .t-record {
+    margin: 35px 0 2px 0;
+  }
+
+  .b-pagination-bottom {
+    .b-pagination {
+      margin-bottom: 25px;
+    }
+  }
+
+  .account-tabs {
+    .caption-item {
+      a {
+        width: 140px;
+      }
+    }
+  }
+
+  #personal-page {
+    .send {
+      top: 20px;
+    }
+  }
+
+  .b-account {
+    .ui-tabs {
+      .ui-tabs-nav {
+        li.ui-tabs-active {
+          .ui-tabs-anchor {
+            font-size: 14px;
+          }
+        }
+      }
+    }
+  }
+
+  .account-tabs .caption-content .right-link {
+    float: none;
+    text-align: left;
+    margin: 25px 0 40px 0;
+  }
+
+  #edit-profiles .t-record {
+    margin-bottom: 3px;
+  }
+
+  .b-product-details-page {
+    .content-logo {
+      margin: 25px 26px 0 0px;
+    }
+
+    .video-product {
+      margin: 25px 0 0 0;
+    }
+  }
+
+  .b-product-details-page {
+    .ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor {
+      font-size: 14px;
+    }
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .b-logo {
+    .tagline {
+      display: none;
+    }
+  }
+
+  .b-personal-search.wrapper-center {
+    width: 100%;
+  }
+
+  .b-personal-search {
+    .search-input {
+      display: block;
+      width: 100%;
+      margin: 15px 0 0 0;
+    }
+
+    .send {
+      right: 8px;
+      top: -39px;
+    }
+  }
+
+  .b-filters {
+    .section-item.first {
+      width: 100%;
+    }
+
+    .column.last {
+      margin-top: 18px;
+    }
+
+    .section-item.second {
+      margin-top: 32px;
+    }
+
+    .section-item {
+      .b-search-in {
+        left: 190px;
+      }
+    }
+
+    .section-item-categories {
+      margin: 4px 0 25px 0;
+
+      .section-item-label-radio.first {
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .lottery-item {
+    width: 50%;
+  }
+
+  .b-information {
+    .main-text {
+      line-height: 22px;
+    }
+
+    .description {
+      line-height: 13px;
+      margin-left: 0;
+    }
+  }
+
+  .product-item, .article-item {
+    width: 50%;
+  }
+
+  footer {
+    .caption {
+      .inline-block;
+    }
+
+    .col-4 {
+      input {
+        .inline-block;
+        margin: 19px 0 0 15px;
+      }
+
+      .social {
+        margin: -21px 0 0 15px;
+        .inline-block;
+      }
+    }
+  }
+
+  .b-form-login {
+    float: none;
+  }
+
+  .p-manufactures {
+    .b-pagination {
+      margin: 6px 0 0 25px;
+    }
+  }
+
+  .b-product-details-page {
+    .video-product {
+      float: none;
+      margin-bottom: 60px;
+
+      .image img {
+        margin: 0 auto;
+      }
+
+      .send {
+        top: 20px;
+      }
+    }
+
+    .b-video-carousel-wrapper {
+      margin-left: 30px;
+      margin-bottom: 0;
+    }
+  }
+
+  .facebook-widget {
+    img {
+      width: 100%;
+    }
+  }
+  .p-product-details {
+    .video-product {
+      .image {
+        text-align: center;
+      }
+    }
+  }
+
+  .b-lottery-page .image-product {
+    float: none;
+  }
+
+  .b-lottery-page {
+    .image-product {
+      .share-network {
+        height: 70px;
+
+        img {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .descriptions {
+      width: 100%;
+    }
+  }
+
+  .b-account .ui-tabs .ui-tabs-nav li {
+    float: none;
+    display: block;
+  }
+
+  .b-account {
+    .ui-tabs {
+      .ui-tabs-nav {
+        li.ui-tabs-active {
+          .ui-tabs-anchor {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .account-tabs {
+    .caption-item  {
+      a {
+        font-size: 13px;
+        width: 100%;
+      }
+    }
+  }
+
+  .b-product-details-page .video-product {
+    float: left;
+  }
+
+  .b-product-details-page .line-letter .border {
+    width: 90%;
+  }
+
+  .b-product-details-page .manufacturers-list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+  }
+
+  .b-product-details-page {
+    .account-tabs .caption-item a {
+      width: 140px;
+    }
+  }
+
+  .b-account .ui-tabs .ui-tabs-nav li {
+    float: none;
+    display: block;
+  }
+
+  .b-account {
+    .ui-tabs {
+      .ui-tabs-nav {
+        li.ui-tabs-active {
+          .ui-tabs-anchor {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .b-product-details-page .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .logged-user {
+    float: none;
+  }
+
+  .logged-user .mailbox {
+    text-align: left;
+    margin: 22px 0 0 15px;
+  }
+
+  .main-menu-item {
+    display: block;
+
+    a {
+      &:after {
+        display: none;
+      }
+    }
+  }
+
+  .b-filters .section-item.second {
+    width: 100%;
+  }
+
+  .b-filters .section-item .b-search-in {
+    left: 0;
+  }
+
+  .section-item-label-radio .b-search-in {
+    top: 10px;
+  }
+
+  .b-filters {
+      .section-item-categories {
+        position: static;
+        float: none;
+        margin: 10px 0 0 0;
+
+        .section-item-label-radio.first {
+          margin-bottom: 40px;
+        }
+      }
+  }
+
+  .lottery-item {
+    width: 100%;
+  }
+
+  .b-information {
+    display: none;
+  }
+
+  .product-item, .article-item {
+    width: 100%;
+  }
+
+  footer {
+    .col-1, .col-2 {
+      display: none;
+    }
+
+    .caption {
+      margin: 15px 0 0 0;
+    }
+
+    .number-phone {
+      margin-top: 10px;
+    }
+
+    .col-4 input {
+      margin: 10px 0 0 0;
+
+      .social-item {
+        margin: 5px 0 0 0;
+      }
+    }
+
+    .social {
+      margin: 17px 0 0 0;
+    }
+  }
+
+  .b-form-login {
+    .form-send {
+      margin: 0 0 0 5px;
+    }
+  }
+
+  .p-manufactures .b-pagination {
+    margin: 6px 0 0 0;
+    float: none;
+  }
+
+  .b-pagination {
+    margin: 6px 68px 15px 0;
+    float: none;
+  }
+
+  .b-contacts {
+    label {
+      input {
+        margin: 6px 0 0 20px;
+      }
+    }
+  }
+
+  .b-product-details-page {
+    .video-product {
+      margin-left: 0;
+
+      iframe {
+        width: 415px;
+      }
+
+      .send {
+        padding: 5px 15px 9px 15px;
+      }
+
+      .documentation {
+        left: 23px;
+      }
+
+      .share-network {
+        width: 430px;
+
+        img {
+          margin: -3px 0 0 21px;
+        }
+      }
+    }
+  }
+
+  .b-filters {
+    .section-item-categories {
+      .send {
+        position: static;
+        float: none;
+        display: block;
+        margin: 13px 0 25px 0;
+      }
+    }
+
+    .section-item-label-radio {
+      .b-search-in {
+        top: 10px;
+      }
+    }
+  }
+
+  .b-lottery-page {
+    .image-product {
+      .share-network {
+        height: 70px;
+        width: 100%;
+
+        img {
+          margin-top: 10px;
+        }
+      }
+    }
+
+    .descriptions {
+      width: 100%;
+    }
+  }
+
+  .b-product-details-page .content-logo {
+    float: left;
+    margin: 0px 26px 20px 0px;
+  }
+
+  .b-product-details-page .share-network {
+    width: 100%;
+
+    img {
+      margin: -3px 0 0 25px;
+    }
+  }
+
+  .b-product-details-page .line-letter {
+    margin: 20px 0 35px 0;
+  }
+
+  .b-product-details-page .manufacturers-list {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .b-personal-search {
+    .search-input {
+      font-size: 13px;
+    }
+  }
+
+  .b-filters {
+    padding: 22px 0 35px 0;
+
+    .section-item {
+      .b-search-in {
+        left: 0;
+        float: left;
+        top: 3px;
+      }
+    }
+
+    .section-item-categories {
+      margin: 30px 0 0 0;
+
+      .send {
+        top: 11px;
+        float: none;
+        left: 26px;
+      }
+    }
+
+    .section-item-label-radio {
+      .b-search-in {
+        top: 10px;
+        left: 13px;
+      }
+    }
+  }
+
+  footer {
+    .col-4 {
+      .caption, input {
+        display: none;
+      }
+
+      .caption.social {
+        margin-top: 31px;
+        display: block;
+      }
+    }
+  }
+
+  .b-form-login {
+    margin: 15px 0 0 0;
+
+    .form-input {
+      margin: 0 0 10px 10px;
+    }
+
+    .links {
+      .login-social {
+        float: none;
+        margin: 22px 0 0 0;
+      }
+    }
+  }
+
+  .p-manufactures {
+    .b-pagination {
+      margin: 8px 0 12px 0;
+    }
+
+    .found {
+      margin: 9px 0 20px 0;
+      float: none;
+    }
+
+    .b-pagination-bottom .b-pagination {
+      margin: 11px 0 11px 0;
+    }
+  }
+
+  .b-pagination {
+    margin: 6px 0 15px 0;
+  }
+
+  .b-breadscrumb .found {
+    float: none;
+    margin: 11px 2px 0 0;
+  }
+
+  .b-medical-category.wrapper-center {
+    margin: 10% 0;
+  }
+
+  .b-pagination-bottom .found {
+    float: left;
+  }
+
+  .b-asotiations-items {
+    .columns(0);
+
+    a {
+      line-height: 16px;
+      margin: 0 0 17px;
+    }
+  }
+
+  .b-contacts {
+    .contacts-list {
+      margin: 18px 1% 0 0;
+      font-size: 14px;
+    }
+
+    label {
+      input {
+        margin: 7px 0 0 0;
+      }
+    }
+
+    .send {
+      margin: 21px 0 0 58px;
+    }
+
+    textarea {
+      width: 254px;
+    }
+  }
+
+  .b-product-details-page {
+    .video-product {
+      iframe {
+        width: 265px;
+        height: 185px;
+      }
+
+      .image img {
+        width: 100%;
+      }
+    }
+
+  }
+
+  .p-product-details {
+    .video-product {
+      margin: 20px 0 0 0;
+
+      .send {
+        display: block;
+        top: 3px;
+        text-align: center;
+      }
+
+      .documentation {
+        left: 0;
+      }
+    }
+  }
+
+  .b-video-carousel-wrapper {
+    width: 100%;
+  }
+
+  .b-product-details-page {
+    .share-network {
+      display: block;
+      height: 72px;
+      width: 100%;
+
+      img {
+        margin: 10px 0 0 0;
+        display: block;
+      }
+    }
+
+    .b-video-carousel-wrapper {
+      margin-left: 0;
+    }
+  }
+
+  .g-title {
+    font-size: 25px;
+  }
+
+  .p-product-details {
+    .g-title {
+      padding: 27px 0 0 0;
+      line-height: 28px;
+    }
+
+    .send-request {
+      margin: 0 0 5px 0;
+    }
+  }
+
+  .p-product-details .descriptions {
+    width: 100%;
+
+    p {
+      line-height: 16px;
+    }
+  }
+
+  .b-lottery-page .image-product img {
+    width: 100%;
+  }
+
+  .b-lottery-page .image-product .share-network img {
+    width: auto;
+    margin-left: 0;
+  }
+
+  .b-lottery-page .honors {
+    width: 100%;
+    padding: 9px 0px 3px 17px;
+
+    .prise {
+      font-size: 16px;
+
+      span {
+        padding: 0 15px 0 0;
+        margin: 8px 0 0 0;
+        border-right: none;
+      }
+    }
+
+    .winners {
+      font-size: 16px;
+
+      span {
+        padding: 0 15px 0 0;
+        margin: 8px 0 0 0;
+      }
+    }
+  }
+
+  .b-product-details-page .video-product .send {
+    width: auto;
+    display: block;
+    text-align: center;
+  }
+
+  .b-product-details-page .video-product .documentation {
+    left: 0;
   }
 }

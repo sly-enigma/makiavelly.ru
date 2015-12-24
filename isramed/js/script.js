@@ -10,11 +10,14 @@ $(document).ready(function(){
                 items:1,
                 nav:true
             },
-            600:{
-                items:3,
-                nav:false
+            320:{
+                items:1
             },
-            1000:{
+            600:{
+                items:4,
+                nav:true
+            },
+            1270:{
                 items:6,
                 nav:true,
                 loop:true
@@ -31,11 +34,14 @@ $(document).ready(function(){
             0:{
                 items:1
             },
-            600:{
-                items:3
+            320: {
+                items:1
             },
-            1000:{
-                items:5
+            600:{
+                items:2
+            },
+            1270:{
+                items:4
             }
         }
     });

@@ -3,8 +3,6 @@
 @import "jquery-ui.min.css";
 @import "jquery-ui.structure.min.css";
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic-ext);
-@import "jquery-ui.min.css";
-@import "jquery-ui.structure.min.css";
 .wrapper-center {
   width: 1240px;
   margin: 0 auto;
@@ -61,6 +59,9 @@ button:focus {
 }
 .b-menu-head-item-link.last {
   padding-right: 0;
+}
+.b-menu-head-item-link.last:after {
+  display: none;
 }
 .b-menu-head-item-link.active,
 .b-menu-head-item-link:hover {
@@ -443,8 +444,8 @@ button:focus {
   -moz-border-radius: 15px;
   border-radius: 15px;
   position: relative;
-  right: 46px;
-  top: -41px;
+  right: 44px;
+  top: -46px;
   float: right;
   padding: 7px 35px;
 }
@@ -1667,16 +1668,16 @@ input[type="radio"]:checked:disabled + label::before {
   margin: 11px 2px 0 0;
 }
 .p-manufactures .b-pagination {
-  margin: 6px 0px 0 59px;
+  margin: 6px 0 0 59px;
 }
 .p-manufactures .found {
-  margin: 9px 0px 0 0;
+  margin: 9px 0 0 0;
 }
 .p-manufactures .b-pagination-bottom .b-pagination {
-  margin: 11px 0px 11px 62px;
+  margin: 11px 0 11px 62px;
 }
 .p-manufactures .b-pagination-bottom .found {
-  margin: 14px 0px 0px 0;
+  margin: 14px 0 0 0;
   float: left;
 }
 .b-manufactures {
@@ -1820,6 +1821,280 @@ input[type="radio"]:checked:disabled + label::before {
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
+.b-account .content-logo {
+  border: 1px solid #d1d1d1;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  padding: 23px 18px 12px 28px;
+  margin: 0 0 0 3px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-account .information {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  float: right;
+  margin: 0 28% 0 0;
+}
+.b-account .information div {
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #4a4a4a;
+  margin: 0px 0 5px 2px;
+}
+.b-account .information .link {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin-bottom: 15px;
+}
+.b-account .to {
+  border-top: 1px solid #d1d1d1;
+  text-align: right;
+  margin: 17px 0 0 0;
+  padding: 16px 0 0 0;
+}
+.b-account .to input {
+  border: 1px solid #bababa;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #8a8a8a;
+  padding: 0 0 0 23px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  width: 33%;
+  margin: 0 5% 0 29px;
+}
+.b-account .to span {
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #4a4a4a;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 9px 0 0 0;
+}
+.b-account .subtitle {
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #396aa8;
+  margin: 22px 0 0 0;
+}
+.b-account .subtitle .text {
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #4a4a4a;
+  margin: 18px 0 0 0;
+}
+.b-account .quotation .t-record {
+  margin-bottom: 22px;
+  margin-top: 70px;
+}
+.b-account .quotation .caption td {
+  text-align: center;
+}
+.b-account .quotation .col-1 {
+  width: 4%;
+  padding: 0;
+}
+.b-account .quotation .col-2 {
+  width: 4%;
+}
+.b-account .quotation .col-3 {
+  width: 20%;
+}
+.b-account .quotation .col-4 {
+  width: 8%;
+}
+.b-account .quotation .col-5 {
+  width: 9%;
+}
+.b-account .quotation .col-6 {
+  width: 14%;
+}
+.b-account .quotation .send {
+  background: #2a67a5;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  padding: 5px 49px 9px 51px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 5px 0 0 0;
+}
+.b-account .choose-title {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #4a4a4a;
+  margin: 0 20px 0 0;
+}
+.b-account .choose-item {
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #4a4a4a;
+  margin: -7px 15px 0 0;
+}
+.b-account .choose-item input[type="checkbox"] + label::before {
+  margin: 0px 4px 0 0;
+}
+.b-account .textfield {
+  margin: 27px 0px 0 0;
+}
+.b-account .textfield .textfield-title {
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #4a4a4a;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+}
+.b-account .textfield textarea {
+  border: 1px solid #bababa;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #8a8a8a;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 90px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  width: 41%;
+  margin: 5px 0% 0 44px;
+}
+.b-account .signature {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 16px 0 25px 0;
+  margin: 10px 0 23px 0;
+}
+.b-account .signature input {
+  border: 1px solid #bababa;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #8a8a8a;
+  padding: 0 0 0 23px;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 32px;
+  line-height: 32px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  width: 41%;
+  margin: 0 5% 0 38px;
+}
+.b-account .signature span {
+  font-size: 15px;
+  font-family: 'PT Sans';
+  font-weight: 600;
+  color: #4a4a4a;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 9px 0 0 0;
+}
+.b-account .connect .connect-item {
+  margin: 0 0 15px 0;
+}
+.b-account .connect .connect-item .caption {
+  width: 174px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #4a4a4a;
+}
+.b-account .connect .b-account .choose-item input[type="checkbox"] + label::before {
+  margin: 0 22px 0 0;
+}
+.b-account .connect .send {
+  background: #396aa8;
+  line-height: 20px;
+  font-size: 14px;
+  font-family: 'PT Sans';
+  font-weight: 400;
+  color: #fff;
+  border: none;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  padding: 7px 35px;
+  margin: 20px 0 0 2px;
+}
 .account-tabs .caption-item {
   display: -moz-inline-stack;
   display: inline-block;
@@ -1901,7 +2176,7 @@ input[type="radio"]:checked:disabled + label::before {
 #edit-profiles .close {
   width: 12px;
   height: 12px;
-  margin: 0 0px 0 0px;
+  margin: 0 0 0 0;
   position: relative;
   left: 17px;
   top: 2px;
@@ -2017,7 +2292,7 @@ input[type="radio"]:checked:disabled + label::before {
 .t-record .col-6 {
   width: 4%;
 }
-#personal-page .send {
+.send.delete-quiz {
   background: #396aa8;
   line-height: 20px;
   font-size: 14px;
@@ -3443,10 +3718,5 @@ select::-ms-expand {
   background-position: 0 -1px;
 }
 .p-medical-company-details .share-network {
-  margin: 30px 0 53px 0px;
-}
-@media screen and (max-width: 1270px) {
-  .wrapper-center {
-    width: 100%;
-  }
+  margin: 30px 0 53px 0;
 }
